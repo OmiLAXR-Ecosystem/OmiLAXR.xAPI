@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.4] - 2026-07-03
+
+### Fixed
+- Fixed Unity Package Manager installation errors caused by the `xapi.config.json` sample being registered as a file instead of a sample directory.
+
+---
+
 ## [2.2.3] - 2026-04-22
 
 ### Added

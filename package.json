@@ -1,6 +1,6 @@
 {
   "name": "com.rwth.unity.omilaxr.xapi",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "displayName": "OmiLAXR.xAPI",
   "description": "This is a package for OmiLAXR for enabling xAPI.",
   "unity": "2020.3",
@@ -15,7 +15,7 @@
     "url": "https://github.com/SGoerzen/OmiLAXR.xAPI"
   },
   "dependencies": {
-    "com.rwth.unity.omilaxr": "2.2.3",
+    "com.rwth.unity.omilaxr": "2.2.4",
     "com.unity.nuget.newtonsoft-json": "3.0.2"
   },
   "keywords": [
@@ -40,7 +40,7 @@
     {
       "displayName": "xapi.config.json",
       "description": "xAPI Registry definitions types JSON files that are used for this version. Move it next to Assets/xapi.",
-      "path": "Samples~/xapi.config.json"
+      "path": "Samples~/xapi.config"
     },
     {
       "displayName": "xAPI.Registry",

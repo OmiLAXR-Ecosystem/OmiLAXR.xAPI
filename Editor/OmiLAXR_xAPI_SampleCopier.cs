@@ -28,8 +28,8 @@ namespace OmiLAXR.xAPI.Editor
     [MenuItem("OmiLAXR / Samples / Copy 'xapi.config.json'", priority = 0)]
     private static void CopyXApiTypesFromSamples()
     {
-        // Quelle: .../Samples~/xapi.config.json  -> Ziel: Assets/xapi.config.json
-        CopyFromSamplesFolder("xapi.config.json", "Assets/xapi.config.json", expectFolder: false);
+        // Quelle: .../Samples~/xapi.config/xapi.config.json  -> Ziel: Assets/xapi.config.json
+        CopyFromSamplesFolder("xapi.config/xapi.config.json", "Assets/xapi.config.json", expectFolder: false);
     }
     
     [MenuItem("OmiLAXR / Samples / Copy 'xapi.config.json' (xAPI4Unity v2.2.1)", priority = 0)]
