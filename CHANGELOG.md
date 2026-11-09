@@ -3,7 +3,15 @@
 ## [2.2.5] - 2026-11-09
 
 ### Changed
+- `xApiStatement`, `xAPIv1` and the gaze composers take the time from the core `Clock`.
+- `ScenarioContextHook` reads language, platform, FPS and registration through the core `ScenarioContext` instead of scene singletons.
 - Updated package version metadata.
+
+### Fixed
+- `xApiStatement.WithScore()` computes `scaled` as `raw / max`, limited to [-1, 1], instead of `min / max`.
+- `xApiStatement.Clone()` also copies the ref ID, interaction type, correct responses, duration and attachments.
+- `ScenarioContextHook` skips a registration that is not a valid UUID instead of failing every statement.
+- `xApiHook.Registry` looks the registry up again after it was destroyed.
 
 ---
 
@@ -197,15 +205,34 @@
 
 ## [2.0.13 - 2.0.17] - 2025-05-21
 
+### Added
+- `InteractableComposer`, `TeleportationComposer` and `InputSystemComposer`, moved here from `OmiLAXR.UnityXR.xAPI`.
+- `HeadComposer`.
+- `SessionComposer`. Sessions use the registration as session ID.
+- `XAPI_REGISTRY_EXISTS` scripting define, set by `ScriptingDefineSymbolsAssetPostProcessor` and `xApiRegistryFolderChecker` when `Assets/xAPI.Registry` exists. Composers compile only with it.
+- `Learning Analytics` prefab. `InteractableComposer` and `TeleportationComposer` are part of the default prefabs.
+
+### Changed
+- A composer is disabled when its tracking behaviour is disabled.
+- Compatible with Unity 2020 again.
+- Updated the default prefabs and component descriptions.
+
+### Removed
+- `PipelineComposer` and the pipeline tracking behaviour.
+
 ### Fixed
 - `LrsCredentialsLoader` no longer starts if it is disabled.
+- Compile errors around the scripting define symbols.
 
 ---
 
-## [2.0.13 - 2.0.17] - 2025-05-21
+## [2.0.12] - 2024-12-02
 
 ### Added
-- No xAPI-specific additions in this release.
+- `LICENSE` file (AGPL-3.0).
+
+### Removed
+- Dependency on `com.unity.nuget.newtonsoft-json`.
 
 ---
 
@@ -247,9 +274,94 @@
 
 ---
 
-## [2.0.7] - 2025-06-06
+## [2.0.8] - 2024-10-25
+
+### Added
+- Instructor and registration in the statement context.
+- FPS in the statement context (`ScenarioContextHook`).
+- `PipelineComposer`.
+- Scroll and focus statements for UI elements, and `uiElementOptions` in dropdown statements.
+- Descriptions for the xAPI components in the inspector.
+
+### Removed
+- `xApiStatementBuilder`.
+- `Instructor`, which moved to the OmiLAXR core.
+
+---
+
+## [2.0.7] - 2024-10-14
 
 ### Added
 - Scene name is now included in the `Context` field of xAPI statements.
 - Tracking added for UI elements: `Toggle`, `Scrollbar`, `TextField`, `TextFieldTMP`.
 - `"System paused Game"` and `"System resumed Game"` xAPI statements.
+
+---
+
+## [2.0.6] - 2024-10-09
+
+### Added
+- Context information (platform, language, team) in statements.
+
+### Removed
+- Scroll statements, because their definitions are not in the main branch of the xAPI registry yet.
+
+---
+
+## [2.0.5] - 2024-10-09
+
+### Changed
+- Changed the execution order of the `LearningRecordStore` endpoint.
+
+---
+
+## [2.0.4] - 2024-10-08
+
+### Changed
+- Updated the core dependency to 2.0.4.
+
+---
+
+## [2.0.3] - 2024-10-08
+
+### Changed
+- Updated the core dependency to 2.0.3.
+
+---
+
+## [2.0.2] - 2024-10-05
+
+### Changed
+- `LearningRecordStore` builds on the new core `BasicAuthEndpoint`.
+
+---
+
+## [2.0.1] - 2024-10-02
+
+### Added
+- `xApiComposer` base class with `GameObjectStateComposer`, `KeyboardComposer`, `MouseComposer`, `SystemComposer` and `UiComposer`.
+- `xApiSemanticComposer` higher composer.
+- `xApiHook` base class.
+- Min and max values in dropdown statements.
+
+### Removed
+- `GameStatementComposer`, `MouseStatementComposer`, `SystemStatementComposer`, `UiStatementComposer`, `xApiStatementComposer` and `xApiStatementHook`, replaced by the classes above.
+- `LrsConfigFileLoader`, `LocalFallback` and `TransferCode`, which moved to the OmiLAXR core.
+
+### Fixed
+- Missing activity extensions.
+- Example scripts and prefabs.
+
+---
+
+## [2.0.0] - 2024-08-15
+
+First release of OmiLAXR.xAPI.
+
+### Added
+- `xApiDataProvider` with the `OmiLAXR.xAPI Data Provider` prefab.
+- `xApiStatement` and `xApiStatementBuilder`.
+- `GameStatementComposer`, `MouseStatementComposer`, `SystemStatementComposer` and `UiStatementComposer`.
+- `LearningRecordStore` endpoint with `LrsConfigFileLoader` and `LocalFallback`.
+- `xApiStatementHook`.
+- `Team` and `Instructor` actors.
