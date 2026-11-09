@@ -1,6 +1,6 @@
 {
   "name": "com.rwth.unity.omilaxr.xapi",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "displayName": "OmiLAXR.xAPI",
   "description": "This is a package for OmiLAXR for enabling xAPI.",
   "unity": "2020.3",

@@ -47,7 +47,7 @@ namespace OmiLAXR.xAPI.Hooks
             {
                 var composer = statement.GetComposer();
                 // Generate platform string with xAPI specifications and composer context
-                var platform = PlatformInformation.Instance.GetPlatformString("xAPI", "2.2.4", composer);
+                var platform = PlatformInformation.Instance.GetPlatformString("xAPI", "2.2.5", composer);
                 statement.WithPlatform(platform);
             }
 
