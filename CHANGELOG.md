@@ -14,6 +14,7 @@
 - `ScenarioContextHook` skips a registration that is not a valid UUID instead of failing every statement.
 - `xApiHook.Registry` looks the registry up again after it was destroyed.
 - `LearningRecordStore` is available without `XAPI_REGISTRY_EXISTS`. Before, it compiled out, so prefabs that contain it reported a missing script ("possibly missing Required Components" on `BasicAuthCredentialsLoader`), and `OmiLAXR.ReCoPa` did not compile.
+- `XAPI_REGISTRY_EXISTS` follows `Assets/xAPI.Registry` only. Before, adding or deleting any other folder named `xAPI.Registry`, e.g. an imported sample, set or removed the define although the registry in `Assets` was unchanged. Moving the registry folder is now detected too.
 
 ---
 

@@ -23,7 +23,7 @@ namespace OmiLAXR.xAPI.Editor
         /// Expected path for the xAPI Registry folder within the Unity project.
         /// Must be located at the root of the Assets folder with this exact name.
         /// </summary>
-        private const string FolderPath = "Assets/xAPI.Registry";
+        private const string FolderPath = ScriptingDefineSymbolsAssetPostProcessor.XAPI_REGISTRY_FOLDER;
         
         /// <summary>
         /// Gets the scripting define symbol name used for conditional compilation.

@@ -38,14 +38,19 @@ namespace OmiLAXR.xAPI.Editor
         public const string XAPI_REGISTRY_EXISTS = "XAPI_REGISTRY_EXISTS";
 
         /// <summary>
+        /// Location of the generated xAPI Registry. The define is set only while this folder exists.
+        /// </summary>
+        public const string XAPI_REGISTRY_FOLDER = "Assets/xAPI.Registry";
+
+        /// <summary>
         /// Unity callback triggered after asset import/delete operations complete.
         /// Analyzes asset changes to detect xAPI Registry folder additions or removals,
         /// scheduling appropriate scripting define symbol updates when necessary.
         /// </summary>
         /// <param name="importedAssets">Array of asset paths that were imported</param>
         /// <param name="deletedAssets">Array of asset paths that were deleted</param>
-        /// <param name="movedAssets">Array of asset paths that were moved (unused)</param>
-        /// <param name="movedFromAssetPaths">Array of original paths for moved assets (unused)</param>
+        /// <param name="movedAssets">Array of asset paths that were moved</param>
+        /// <param name="movedFromAssetPaths">Array of original paths for moved assets</param>
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets,
             string[] movedFromAssetPaths)
         {
@@ -56,16 +61,17 @@ namespace OmiLAXR.xAPI.Editor
             // Check current state of the define symbol
             var defineExists = DefineUtility.IsDefined(XAPI_REGISTRY_EXISTS);
 
-            // Determine if xAPI Registry folder was added (and define should be set)
-            var shouldAdd = !defineExists && importedAssets.Any(path =>
-                Path.GetFileName(path) == "xAPI.Registry" &&
-                AssetDatabase.IsValidFolder(path) &&
-                !path.EndsWith(".meta")); // Ignore .meta files
+            // Only react when a folder named xAPI.Registry was added, deleted or moved somewhere
+            var registryTouched = importedAssets.Concat(deletedAssets).Concat(movedAssets).Concat(movedFromAssetPaths)
+                .Any(path => Path.GetFileName(path) == "xAPI.Registry");
+            if (!registryTouched)
+                return;
 
-            // Determine if xAPI Registry folder was removed (and define should be unset)
-            var shouldRemove = defineExists && deletedAssets.Any(path =>
-                Path.GetFileName(path) == "xAPI.Registry" &&
-                !path.EndsWith(".meta")); // Ignore .meta files
+            // Decide by the registry in the Assets root, like xApiRegistryFolderChecker, so that adding or
+            // deleting another folder with that name (e.g. an imported sample) does not flip the define
+            var registryExists = AssetDatabase.IsValidFolder(XAPI_REGISTRY_FOLDER);
+            var shouldAdd = !defineExists && registryExists;
+            var shouldRemove = defineExists && !registryExists;
             
             // Exit if no relevant changes detected
             if (!shouldAdd && !shouldRemove)
