@@ -12,21 +12,21 @@ namespace OmiLAXR.xAPI.Editor
     private const string PackageName = "com.rwth.unity.omilaxr.xapi";
 
     [MenuItem("OmiLAXR / Samples / Copy 'xapi' folder")]
-    private static void CopyXApiDefFolderFromSamples()
+    internal static void CopyXApiDefFolderFromSamples()
     {
         // Quelle: .../Samples~/xapi   -> Ziel: Assets/xapi
         CopyFromSamplesFolder("xapi", "Assets/xapi", expectFolder: true);
     }
 
     [MenuItem("OmiLAXR / Samples / Copy 'xAPI.Registry'")]
-    private static void CopyXApiRegFolderFromSamples()
+    internal static void CopyXApiRegFolderFromSamples()
     {
         // Quelle: .../Samples~/xAPI.Registry  -> Ziel: Assets/xAPI.Registry
         CopyFromSamplesFolder("xAPI.Registry", "Assets/xAPI.Registry", expectFolder: true);
     }
 
     [MenuItem("OmiLAXR / Samples / Copy 'xapi.config.json'", priority = 0)]
-    private static void CopyXApiTypesFromSamples()
+    internal static void CopyXApiTypesFromSamples()
     {
         // Quelle: .../Samples~/xapi.config/xapi.config.json  -> Ziel: Assets/xapi.config.json
         CopyFromSamplesFolder("xapi.config/xapi.config.json", "Assets/xapi.config.json", expectFolder: false);

@@ -38,7 +38,7 @@ namespace OmiLAXR.xAPI.Editor
         /// </summary>
         [MenuItem("OmiLAXR / Validation / Check if xAPI Registry exists")]
         [InitializeOnLoadMethod]
-        private static void CheckOnEditorStartup()
+        internal static void CheckOnEditorStartup()
         {
             if (Directory.Exists(FolderPath))
             {

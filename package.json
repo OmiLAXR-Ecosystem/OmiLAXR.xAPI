@@ -15,7 +15,7 @@
     "url": "https://github.com/SGoerzen/OmiLAXR.xAPI"
   },
   "dependencies": {
-    "com.rwth.unity.omilaxr": "2.2.5",
+    "com.rwth.unity.omilaxr": "2.3.0",
     "com.unity.nuget.newtonsoft-json": "3.0.2"
   },
   "keywords": [

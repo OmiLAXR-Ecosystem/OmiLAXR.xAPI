@@ -2,7 +2,12 @@
 
 ## [2.2.5] - 2026-11-09
 
+### Added
+- `xApiWizardSection` adds an xAPI section to the OmiLAXR Wizard: checks for the xAPI data provider, `Assets/xAPI.Registry` and `XAPI_REGISTRY_EXISTS`, plus actions to add the prefab and copy the samples.
+- `xApiPpmWizardSection` adds the PPM hook to the tracking step of the OmiLAXR Wizard: it checks for a `PpmHook` and adds one to the xAPI data provider.
+
 ### Changed
+- Raised the core dependency `com.rwth.unity.omilaxr` to 2.3.0, which provides the OmiLAXR Wizard and `IWizardSection`.
 - `xApiStatement`, `xAPIv1` and the gaze composers take the time from the core `Clock`.
 - `ScenarioContextHook` reads language, platform, FPS and registration through the core `ScenarioContext` instead of scene singletons.
 - Raised the core dependency `com.rwth.unity.omilaxr` to 2.2.5, which provides `Clock` and `ScenarioContext`.
