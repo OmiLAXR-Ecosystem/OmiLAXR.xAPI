@@ -185,6 +185,8 @@ namespace OmiLAXR.xAPI.Extensions
         /// <returns>TinCan Context object with mapped contextual data</returns>
         public static tc.Context ToTinCanContext(this xAPI_Extensions_Context extensions, tc.TCAPIVersion version, string uri, string language, string platform, xAPI_Actor? instructor = null, xAPI_Actor? team = null, xAPI_Actor[] teamMembers = null, Guid? registration = null, Guid? refId = null)
         {
+            // instructor and team are deprecated in xAPI 2.0 only; xAPI 1.0.x statements still need them
+#pragma warning disable CS0618
             var ctx = new tc.Context()
             {
                 instructor = instructor?.ToTinCanAgent(),
@@ -194,6 +196,7 @@ namespace OmiLAXR.xAPI.Extensions
                 language = language,
                 platform = platform,
             };
+#pragma warning restore CS0618
 
             if (version.Equals(tc.TCAPIVersion.V200))
             {
