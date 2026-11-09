@@ -13,6 +13,7 @@
 - `xApiStatement.Clone()` also copies the ref ID, interaction type, correct responses, duration and attachments.
 - `ScenarioContextHook` skips a registration that is not a valid UUID instead of failing every statement.
 - `xApiHook.Registry` looks the registry up again after it was destroyed.
+- `LearningRecordStore` is available without `XAPI_REGISTRY_EXISTS`. Before, it compiled out, so prefabs that contain it reported a missing script ("possibly missing Required Components" on `BasicAuthCredentialsLoader`), and `OmiLAXR.ReCoPa` did not compile.
 
 ---
 
