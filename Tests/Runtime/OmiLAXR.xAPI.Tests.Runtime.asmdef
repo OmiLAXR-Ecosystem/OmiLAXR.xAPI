@@ -1,0 +1,27 @@
+{
+    "name": "OmiLAXR.xAPI.Tests.Runtime",
+    "rootNamespace": "OmiLAXR.xAPI.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "OmiLAXR",
+        "OmiLAXR.xAPI",
+        "xAPI.Registry"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll",
+        "TinCan.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "XAPI_REGISTRY_EXISTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
