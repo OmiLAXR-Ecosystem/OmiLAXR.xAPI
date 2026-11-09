@@ -12,7 +12,7 @@
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SGoerzen/OmiLAXR.xAPI"
+    "url": "https://github.com/OmiLAXR-Ecosystem/OmiLAXR.xAPI"
   },
   "dependencies": {
     "com.rwth.unity.omilaxr": "2.3.0",
