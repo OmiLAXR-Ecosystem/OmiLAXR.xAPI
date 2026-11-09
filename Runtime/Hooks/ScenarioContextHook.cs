@@ -33,37 +33,29 @@ namespace OmiLAXR.xAPI.Hooks
         /// <returns>xApiStatement enriched with available scenario and environmental context data</returns>
         protected override xApiStatement AfterCompose(xApiStatement statement)
         {
-            // Add language context if ScenarioLanguage component is available
-            if (ScenarioLanguage.Instance)
-            {
-                var language = ScenarioLanguage.Instance.language;
-                var langCode = language.ToString();
-                // Ensure language code doesn't have underscore prefix for xAPI compliance
-                statement.WithLanguage(langCode[0] == '_' ? langCode.Substring(1) : langCode);
-            }
+            // Add language context if a language provider (by default <ScenarioLanguage>) is available
+            var language = ScenarioContext.Language;
+            if (language != null)
+                statement.WithLanguage(language.GetLanguageCode());
 
-            // Add platform information context if PlatformInformation component is available
-            if (PlatformInformation.Instance)
+            // Add platform information context if a platform provider (by default <PlatformInformation>) is available
+            var platform = ScenarioContext.Platform;
+            if (platform != null)
             {
                 var composer = statement.GetComposer();
                 // Generate platform string with xAPI specifications and composer context
-                var platform = PlatformInformation.Instance.GetPlatformString("xAPI", "2.2.5", composer);
-                statement.WithPlatform(platform);
+                statement.WithPlatform(platform.GetPlatformString("xAPI", "2.2.5", composer));
             }
 
-            // Add performance context (FPS) if FpsMonitor is available and enabled
-            if (FpsMonitor.Instance && FpsMonitor.Instance.enabled)
-            {
-                statement.WithContext(xapi.systemControl.extensions.context.fps(FpsMonitor.Instance.CurrentFPS));
-            }
-            
-            // Add registration UUID context if Registration component is available and enabled
-            // Skip registrations without a valid UUID instead of failing every statement
-            if (Registration.Instance && Registration.Instance.enabled &&
-                Guid.TryParse(Registration.Instance.uuid, out var registration))
-            {
-                statement.WithRegistration(registration);
-            }
+            // Add performance context (FPS) if an enabled FPS provider (by default <FpsMonitor>) is available
+            var fps = ScenarioContext.Fps?.GetFps();
+            if (fps.HasValue)
+                statement.WithContext(xapi.systemControl.extensions.context.fps(fps.Value));
+
+            // Add registration UUID context; registrations without a valid UUID are skipped
+            var registration = ScenarioContext.Registration?.GetRegistration();
+            if (registration.HasValue)
+                statement.WithRegistration(registration.Value);
             
             // Add application and scene context information
             var activeScene = SceneManager.GetActiveScene();

@@ -6,6 +6,7 @@ using OmiLAXR.Components;
 using OmiLAXR.Composers;
 using OmiLAXR.TrackingBehaviours.Learner.Gaze;
 using UnityEngine;
+using OmiLAXR.Utils;
 
 namespace OmiLAXR.xAPI.Composers.Attention
 {
@@ -103,7 +104,7 @@ namespace OmiLAXR.xAPI.Composers.Attention
                 // get reference id from enter statement
                 var refStmt = RestoreStatement(sender, cameraData.Hit.Source);
                 // temp end time
-                var endTime = DateTime.Now;
+                var endTime = Clock.Now;
                 var stmt = actor.Does(xapi.attention.verbs.averted)
                     .Activity(xapi.virtualReality.activities.vrObject)
                     .WithValue(xapi.virtualReality.extensions.result

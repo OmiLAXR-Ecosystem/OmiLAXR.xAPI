@@ -256,7 +256,7 @@ namespace OmiLAXR.xAPI.Composers
         /// <summary>
         /// Creation timestamp of this statement object.
         /// </summary>
-        public readonly DateTime CreatedAt = DateTime.Now;
+        public readonly DateTime CreatedAt = Clock.Now;
 
         // Pipeline tracking information
         private PipelineInfo _senderPipelineInfo;
@@ -1080,7 +1080,7 @@ namespace OmiLAXR.xAPI.Composers
         {
             _uri = p.Builder.Uri;
             _composer = p.Builder.Composer;
-            _timestamp = DateTime.Now;
+            _timestamp = Clock.Now;
             _authority = new xAPI_Actor(p.Builder.Author.Name, p.Builder.Author.Email);
             _verb = p.Verb;
             _activity = activity;

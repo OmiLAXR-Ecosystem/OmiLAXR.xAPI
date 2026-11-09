@@ -10,6 +10,7 @@ using System.Linq;
 using OmiLAXR.xAPI.Extensions;
 using TinCan;
 using xAPI.Registry;
+using OmiLAXR.Utils;
 
 namespace OmiLAXR.xAPI
 {
@@ -175,7 +176,7 @@ namespace OmiLAXR.xAPI
                 context = CreateContext(uri, contextExtensions, instructor, team),           // Environmental context
                 result = CreateResult(uri, score, completion, success, response, resultExtensions),
                 //add timestamp to statement
-                timestamp = DateTime.Now,                                                   // Set current timestamp
+                timestamp = Clock.Now,                                                   // Set current timestamp
                 version = TCAPIVersion.latest()                                             // Use latest TinCan version
             };
 
@@ -261,7 +262,7 @@ namespace OmiLAXR.xAPI
                 context = CreateContext(uri, contextExtensions, instructor, team),                   // Environmental context
                 result = CreateResult(uri, score, completion, success, response, resultExtensions),   // Result information
                 //add timestamp to statement
-                timestamp = DateTime.Now,                                                           // Set current timestamp
+                timestamp = Clock.Now,                                                           // Set current timestamp
                 version = TCAPIVersion.latest()                                                     // Use latest TinCan version
             };
 

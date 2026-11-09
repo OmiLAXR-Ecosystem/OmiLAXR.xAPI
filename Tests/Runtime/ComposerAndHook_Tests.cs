@@ -177,6 +177,71 @@ namespace OmiLAXR.xAPI.Tests
             Assert.AreSame(foreign, hook.AfterCompose(foreign));
         }
 
+        private sealed class FakeContext : IRegistrationProvider, ILanguageProvider, IPlatformInfoProvider, IFpsProvider
+        {
+            public Guid? GetRegistration() => new Guid("11111111-2222-3333-4444-555555555555");
+            public string GetLanguageCode() => "fr";
+            public string GetPlatformString(string module, string version, IComposer composer) => $"Fake:{module}:{version}";
+            public int? GetFps() => 72;
+        }
+
+        [Test]
+        public void ScenarioContextHook_Uses_Injected_Providers_Without_Scene_Objects()
+        {
+            // Arrange
+            var hook = CreateContext<ScenarioContextHook>();
+            var context = new FakeContext();
+            ScenarioContext.Registration = context;
+            ScenarioContext.Language = context;
+            ScenarioContext.Platform = context;
+            ScenarioContext.Fps = context;
+
+            try
+            {
+                // Act
+                var result = (xApiStatement)hook.AfterCompose(CreateStatement());
+
+                // Assert
+                Assert.AreEqual("fr", result.GetLanguage());
+                Assert.AreEqual("Fake:xAPI:2.2.5", result.GetPlatform());
+                Assert.AreEqual(context.GetRegistration(), result.GetRegistration());
+                Assert.IsTrue(result.HasContextKey("fps"));
+            }
+            finally
+            {
+                ScenarioContext.Reset();
+            }
+        }
+
+        [Test]
+        public void xApiStatement_Default_Timestamp_Comes_From_Clock()
+        {
+            // Arrange
+            var now = new DateTime(2025, 6, 7, 8, 9, 10);
+            Utils.Clock.Current = new FixedClock(now);
+
+            try
+            {
+                // Act
+                var statement = CreateStatement();
+
+                // Assert
+                Assert.AreEqual(now, statement.GetTimestamp());
+                Assert.AreEqual(now, statement.CreatedAt);
+            }
+            finally
+            {
+                Utils.Clock.Current = null;
+            }
+        }
+
+        private sealed class FixedClock : Utils.IClock
+        {
+            public FixedClock(DateTime now) => Now = now;
+            public DateTime Now { get; }
+            public DateTime UtcNow => Now.ToUniversalTime();
+        }
+
         [Test]
         public void Context_Instance_Is_Refreshed_After_Destroy()
         {

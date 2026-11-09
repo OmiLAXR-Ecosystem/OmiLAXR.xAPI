@@ -7,6 +7,7 @@ using OmiLAXR.Components.Gaze;
 using OmiLAXR.Composers;
 using OmiLAXR.TrackingBehaviours.Learner.Gaze;
 using UnityEngine;
+using OmiLAXR.Utils;
 
 namespace OmiLAXR.xAPI.Composers.Attention
 {
@@ -196,7 +197,7 @@ namespace OmiLAXR.xAPI.Composers.Attention
                 var go = eyeData.Hit.Target.gameObject;
 
                 // Use the end-of-segment timestamp when available to anchor the event time
-                var endTime = pursuitData.EndTime ?? DateTime.UtcNow;
+                var endTime = pursuitData.EndTime ?? Clock.UtcNow;
 
                 var stmt = actor.Does(xapi.eyeTracking.verbs.pursued)
                     .Activity(xapi.virtualReality.activities.vrObject)
