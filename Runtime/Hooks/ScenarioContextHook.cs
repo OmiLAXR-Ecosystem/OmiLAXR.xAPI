@@ -58,9 +58,11 @@ namespace OmiLAXR.xAPI.Hooks
             }
             
             // Add registration UUID context if Registration component is available and enabled
-            if (Registration.Instance && Registration.Instance.enabled)
+            // Skip registrations without a valid UUID instead of failing every statement
+            if (Registration.Instance && Registration.Instance.enabled &&
+                Guid.TryParse(Registration.Instance.uuid, out var registration))
             {
-                statement.WithRegistration(new Guid(Registration.Instance.uuid));
+                statement.WithRegistration(registration);
             }
             
             // Add application and scene context information

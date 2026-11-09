@@ -281,6 +281,11 @@ namespace OmiLAXR.xAPI.Composers
                     _response = _response,
                     _timestamp = _timestamp,
                     _registration = _registration,
+                    _refId = _refId,
+                    _interactionType = _interactionType,
+                    _correctResponses = new List<string>(_correctResponses),
+                    _duration = _duration,
+                    _attachments = new List<Attachment>(_attachments),
                     _uri = _uri,
                     _composer = _composer,
                     _senderPipelineInfo = _senderPipelineInfo,
@@ -1051,7 +1056,8 @@ namespace OmiLAXR.xAPI.Composers
                 raw = raw,
                 min = min,
                 max = max,
-                scaled = min / max
+                // xAPI requires scaled to be within [-1, 1]
+                scaled = max.HasValue ? Math.Max(-1.0, Math.Min(1.0, raw / max.Value)) : (double?)null
             };
 
             return this;
