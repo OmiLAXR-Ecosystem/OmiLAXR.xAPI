@@ -50,7 +50,8 @@ namespace OmiLAXR.xAPI
         public string uri = DefaultUri;
 
         [TCAPIVersionDropdown]
-        [SerializeField, InspectorName("xAPI Version")] public string version = "1.0.3";
+        [SerializeField, InspectorName("xAPI Version"), Tooltip("xAPI version the composers report for their statements.")]
+        public string version = "1.0.3";
 
         /// <summary>
         /// Set once <see cref="uri"/> was checked for a former default base. Scenes and prefabs saved

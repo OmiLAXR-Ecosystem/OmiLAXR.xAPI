@@ -22,7 +22,9 @@ namespace OmiLAXR.xAPI.Endpoints
     public class LearningRecordStore : BasicAuthEndpoint
     {
         [TCAPIVersionDropdown]
-        [SerializeField, Header("This version will overwrite the version of [xApiRegistry]."), InspectorName("xAPI Version")] public string version = "1.0.3";
+        [SerializeField, Header("This version will overwrite the version of [xApiRegistry]."), InspectorName("xAPI Version"),
+         Tooltip("xAPI version used to talk to the Learning Record Store.")]
+        public string version = "1.0.3";
         
         /// <summary>
         /// Platform-specific LRS client implementation for handling HTTP communication.

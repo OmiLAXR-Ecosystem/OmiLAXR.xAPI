@@ -24,6 +24,7 @@ namespace OmiLAXR.xAPI.Composers.Emotion
     )]
     public class FacialComposer : xApiComposer<FacialTrackingBehaviour>
     {
+        [Tooltip("Also send a statement for every face data update, not only for emotion changes. Produces many statements.")]
         public bool sendDataChange = false;
         
         /// <summary>

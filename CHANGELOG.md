@@ -15,6 +15,7 @@
 - `ScenarioContextHook` reads language, platform, FPS and registration through the core `ScenarioContext` instead of scene singletons.
 - Raised the core dependency `com.rwth.unity.omilaxr` to 2.2.5, which provides `Clock` and `ScenarioContext`.
 - Updated package version metadata.
+- Inspector tooltips for `FacialComposer.sendDataChange`, `LearningRecordStore.version` and `xApiRegistry.version`. They appear on docs.omilaxr.dev.
 
 ### Fixed
 - `xApiStatement.WithScore()` computes `scaled` as `raw / max`, limited to [-1, 1], instead of `min / max`.
