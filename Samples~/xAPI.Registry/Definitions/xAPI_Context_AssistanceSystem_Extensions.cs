@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 8 extensions of 'assistanceSystem': 2 in activity, 2 in context, 4 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_AssistanceSystem activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 8 extensions of 'assistanceSystem': 2 in activity, 2 in context, 4 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_AssistanceSystem context {
             get {
@@ -30,7 +30,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 8 extensions of 'assistanceSystem': 2 in activity, 2 in context, 4 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_AssistanceSystem result {
             get {

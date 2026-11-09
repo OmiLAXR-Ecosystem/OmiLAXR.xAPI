@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An experiment mode can be for example 'Energy Measurement' or 'Orientation Measurement'
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/experimentMode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/activity/experimentMode
         /// </summary>
         public xAPI_Extensions_Activity_Tagformance experimentMode(object value) {
             Add(new xAPI_Extension(
@@ -29,7 +29,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has authored the name of the graph or entered the username.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/graphName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/activity/graphName
         /// </summary>
         public xAPI_Extensions_Activity_Tagformance graphName(object value) {
             Add(new xAPI_Extension(
@@ -46,7 +46,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of the mouse button the actor has used (e.g. 'right', 'left').
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/mouseButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/activity/mouseButton
         /// </summary>
         public xAPI_Extensions_Activity_Tagformance mouseButton(object value) {
             Add(new xAPI_Extension(
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A value of an ui element (checkbox, dropdown, etc.).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity/uiElementValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/activity/uiElementValue
         /// </summary>
         public xAPI_Extensions_Activity_Tagformance uiElementValue(object value) {
             Add(new xAPI_Extension(

@@ -6,19 +6,19 @@ namespace xAPI.Registry {
     public class xAPI_Context_Lms : xAPI_Context {
         /// <summary>
         /// 47 verbs of 'lms'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs
         /// </summary>
         public readonly xAPI_Verbs_Lms verbs = new xAPI_Verbs_Lms();
 
         /// <summary>
         /// 35 activities of 'lms'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities
         /// </summary>
         public readonly xAPI_Activities_Lms activities = new xAPI_Activities_Lms();
 
         /// <summary>
         /// 0 extensions of 'lms': .
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/extensions
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/extensions
         /// </summary>
         public readonly xAPI_Context_Lms_Extensions extensions = new xAPI_Context_Lms_Extensions();
 

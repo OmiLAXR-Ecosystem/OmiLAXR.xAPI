@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 3 extensions of 'voice': 3 in activity.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_Voice activity {
             get {

@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 3 extensions of 'eyeTracking': 1 in activity, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_EyeTracking activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 3 extensions of 'eyeTracking': 1 in activity, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_EyeTracking result {
             get {

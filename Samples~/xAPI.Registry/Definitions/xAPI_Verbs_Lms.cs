@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Lms : xAPI_Verbs {
         /// <summary>
         /// Actor accessed a page, file, video, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/accessed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/accessed
         /// </summary>
         public readonly xAPI_Verb accessed = new xAPI_Verb(
             context: "lms",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor added an object/person to a collection
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/added
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/added
         /// </summary>
         public readonly xAPI_Verb added = new xAPI_Verb(
             context: "lms",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An Actor gave an answer to a question.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/answered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/answered
         /// </summary>
         public readonly xAPI_Verb answered = new xAPI_Verb(
             context: "lms",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor approved an object (in Moodle "learning plan")
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/approved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/approved
         /// </summary>
         public readonly xAPI_Verb approved = new xAPI_Verb(
             context: "lms",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor assigned an object/task/activity to someone
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/assigned
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/assigned
         /// </summary>
         public readonly xAPI_Verb assigned = new xAPI_Verb(
             context: "lms",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor blocked a person
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/blocked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/blocked
         /// </summary>
         public readonly xAPI_Verb blocked = new xAPI_Verb(
             context: "lms",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor cancelled an activity, a meeting
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/cancelled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/cancelled
         /// </summary>
         public readonly xAPI_Verb cancelled = new xAPI_Verb(
             context: "lms",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor closed an object (i.e. forum thread)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "lms",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor completed an activity/task
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/completed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/completed
         /// </summary>
         public readonly xAPI_Verb completed = new xAPI_Verb(
             context: "lms",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor created an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "lms",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor deleted an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/deleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/deleted
         /// </summary>
         public readonly xAPI_Verb deleted = new xAPI_Verb(
             context: "lms",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor downloaded an object (e. g. a PDF file)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/downloaded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/downloaded
         /// </summary>
         public readonly xAPI_Verb downloaded = new xAPI_Verb(
             context: "lms",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor exported an object/data
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/exported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/exported
         /// </summary>
         public readonly xAPI_Verb exported = new xAPI_Verb(
             context: "lms",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor failed an activity (quiz attempt, upload, log in)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/failed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/failed
         /// </summary>
         public readonly xAPI_Verb failed = new xAPI_Verb(
             context: "lms",
@@ -203,7 +203,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor rated an object/person
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/graded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/graded
         /// </summary>
         public readonly xAPI_Verb graded = new xAPI_Verb(
             context: "lms",
@@ -217,7 +217,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor hid an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/hid
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/hid
         /// </summary>
         public readonly xAPI_Verb hid = new xAPI_Verb(
             context: "lms",
@@ -231,7 +231,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor imported an object/data
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/imported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/imported
         /// </summary>
         public readonly xAPI_Verb imported = new xAPI_Verb(
             context: "lms",
@@ -245,7 +245,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An Actor did not gave an answer to a question. Might occur in quizzes if a question is left open.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/leftUnanswered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/leftUnanswered
         /// </summary>
         public readonly xAPI_Verb leftUnanswered = new xAPI_Verb(
             context: "lms",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor linked an object/person to an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/linked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/linked
         /// </summary>
         public readonly xAPI_Verb linked = new xAPI_Verb(
             context: "lms",
@@ -273,7 +273,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor locked an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/locked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/locked
         /// </summary>
         public readonly xAPI_Verb locked = new xAPI_Verb(
             context: "lms",
@@ -287,7 +287,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor logged in (as him-/herself)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/loggedIn
         /// </summary>
         public readonly xAPI_Verb loggedIn = new xAPI_Verb(
             context: "lms",
@@ -301,7 +301,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor logged in as another person
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedInAs
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/loggedInAs
         /// </summary>
         public readonly xAPI_Verb loggedInAs = new xAPI_Verb(
             context: "lms",
@@ -315,7 +315,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor logged out
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/loggedOut
         /// </summary>
         public readonly xAPI_Verb loggedOut = new xAPI_Verb(
             context: "lms",
@@ -329,7 +329,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor moved an object/person from one group/area to another
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/moved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/moved
         /// </summary>
         public readonly xAPI_Verb moved = new xAPI_Verb(
             context: "lms",
@@ -343,7 +343,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor paused an activity
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/paused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/paused
         /// </summary>
         public readonly xAPI_Verb paused = new xAPI_Verb(
             context: "lms",
@@ -357,7 +357,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor changed the grading of an object/person.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/regraded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/regraded
         /// </summary>
         public readonly xAPI_Verb regraded = new xAPI_Verb(
             context: "lms",
@@ -371,7 +371,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor removed an object/person from a collection
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/removed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/removed
         /// </summary>
         public readonly xAPI_Verb removed = new xAPI_Verb(
             context: "lms",
@@ -385,7 +385,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor reopened an activity (assignment submission, forum)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/reopened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/reopened
         /// </summary>
         public readonly xAPI_Verb reopened = new xAPI_Verb(
             context: "lms",
@@ -399,7 +399,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor replaced an object/person
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/replaced
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/replaced
         /// </summary>
         public readonly xAPI_Verb replaced = new xAPI_Verb(
             context: "lms",
@@ -413,7 +413,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor requested an object/access/information
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/requested
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/requested
         /// </summary>
         public readonly xAPI_Verb requested = new xAPI_Verb(
             context: "lms",
@@ -427,7 +427,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor resetted an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/resetted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/resetted
         /// </summary>
         public readonly xAPI_Verb resetted = new xAPI_Verb(
             context: "lms",
@@ -441,7 +441,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor restored a previous version of an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/restored
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/restored
         /// </summary>
         public readonly xAPI_Verb restored = new xAPI_Verb(
             context: "lms",
@@ -455,7 +455,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor resumed a previously paused activity
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/resumed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/resumed
         /// </summary>
         public readonly xAPI_Verb resumed = new xAPI_Verb(
             context: "lms",
@@ -469,7 +469,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor reviewed an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/reviewed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/reviewed
         /// </summary>
         public readonly xAPI_Verb reviewed = new xAPI_Verb(
             context: "lms",
@@ -483,7 +483,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor searched for something
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/searched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/searched
         /// </summary>
         public readonly xAPI_Verb searched = new xAPI_Verb(
             context: "lms",
@@ -497,7 +497,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor sent a message to a person/group
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/sent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/sent
         /// </summary>
         public readonly xAPI_Verb sent = new xAPI_Verb(
             context: "lms",
@@ -511,7 +511,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor started an activity
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "lms",
@@ -525,7 +525,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor stopped an activity/process
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/stopped
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/stopped
         /// </summary>
         public readonly xAPI_Verb stopped = new xAPI_Verb(
             context: "lms",
@@ -539,7 +539,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor submitted a quiz, assignment, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/submitted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/submitted
         /// </summary>
         public readonly xAPI_Verb submitted = new xAPI_Verb(
             context: "lms",
@@ -553,7 +553,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor succeeded an activity
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/succeeded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/succeeded
         /// </summary>
         public readonly xAPI_Verb succeeded = new xAPI_Verb(
             context: "lms",
@@ -567,7 +567,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor triggered a process
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/triggered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/triggered
         /// </summary>
         public readonly xAPI_Verb triggered = new xAPI_Verb(
             context: "lms",
@@ -581,7 +581,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor unapproved an object (in Moodle "learning plan")
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unapproved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/unapproved
         /// </summary>
         public readonly xAPI_Verb unapproved = new xAPI_Verb(
             context: "lms",
@@ -595,7 +595,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor unblocked a blocked person
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unblocked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/unblocked
         /// </summary>
         public readonly xAPI_Verb unblocked = new xAPI_Verb(
             context: "lms",
@@ -609,7 +609,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor unlinked an object/person from an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unlinked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/unlinked
         /// </summary>
         public readonly xAPI_Verb unlinked = new xAPI_Verb(
             context: "lms",
@@ -623,7 +623,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor unlocked an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/unlocked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/unlocked
         /// </summary>
         public readonly xAPI_Verb unlocked = new xAPI_Verb(
             context: "lms",
@@ -637,7 +637,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor updated the content of an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/updated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/updated
         /// </summary>
         public readonly xAPI_Verb updated = new xAPI_Verb(
             context: "lms",
@@ -651,7 +651,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor removed the assignment of an object/task/activity to someone
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/withdrew
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/withdrew
         /// </summary>
         public readonly xAPI_Verb withdrew = new xAPI_Verb(
             context: "lms",

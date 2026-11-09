@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_RightsEngine : xAPI_Verbs {
         /// <summary>
         /// Actor accessed/viewed a schema, his or her consent, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/accessed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/verbs/accessed
         /// </summary>
         public readonly xAPI_Verb accessed = new xAPI_Verb(
             context: "rightsEngine",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor paused the data collection for the related provider context, but the consent settings will be kept. Data collection can be resumed by resuming the the provider context.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/paused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/verbs/paused
         /// </summary>
         public readonly xAPI_Verb paused = new xAPI_Verb(
             context: "rightsEngine",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor resumed a previously paused provider context. Consequently, the data collection is resumed with the preserved consent settings.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/resumed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/verbs/resumed
         /// </summary>
         public readonly xAPI_Verb resumed = new xAPI_Verb(
             context: "rightsEngine",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor updated his or her consent for a schema or a schema itself.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/verbs/updated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/verbs/updated
         /// </summary>
         public readonly xAPI_Verb updated = new xAPI_Verb(
             context: "rightsEngine",

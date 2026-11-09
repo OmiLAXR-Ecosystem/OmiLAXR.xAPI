@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of actors gestures. Has to be an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/extensions/result/numberOfGestures
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/extensions/result/numberOfGestures
         /// </summary>
         public xAPI_Extensions_Result_Gestures numberOfGestures(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Setting, which hand is currently the primary hand.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/extensions/result/primaryHand
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/extensions/result/primaryHand
         /// </summary>
         public xAPI_Extensions_Result_Gestures primaryHand(object value) {
             Add(new xAPI_Extension(

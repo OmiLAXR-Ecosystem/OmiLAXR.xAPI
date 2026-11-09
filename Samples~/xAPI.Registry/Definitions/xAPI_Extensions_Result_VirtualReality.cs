@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The vertical distance of the camera position relative to the floor. This value represents the camera's Y-axis position in the 3D space, such as the height at which the camera is positioned. The floor should be initalized to zero.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/cameraYOffset
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/result/cameraYOffset
         /// </summary>
         public xAPI_Extensions_Result_VirtualReality cameraYOffset(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Position in scene.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/position
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/result/position
         /// </summary>
         public xAPI_Extensions_Result_VirtualReality position(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Rotation in scene.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/rotation
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/result/rotation
         /// </summary>
         public xAPI_Extensions_Result_VirtualReality rotation(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Scale in scene.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result/scale
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/result/scale
         /// </summary>
         public xAPI_Extensions_Result_VirtualReality scale(object value) {
             Add(new xAPI_Extension(

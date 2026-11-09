@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 20 extensions of 'generic': 8 in activity, 5 in context, 7 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_Generic activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 20 extensions of 'generic': 8 in activity, 5 in context, 7 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_Generic context {
             get {
@@ -30,7 +30,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 20 extensions of 'generic': 8 in activity, 5 in context, 7 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_Generic result {
             get {

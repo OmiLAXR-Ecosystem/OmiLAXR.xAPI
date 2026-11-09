@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Voice : xAPI_Activities {
         /// <summary>
         /// A keyword is a word the actor can use to interact with the system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/keyword
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/activities/keyword
         /// </summary>
         public readonly xAPI_Activity keyword = new xAPI_Activity(
             context: "voice",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A fixed teleport point in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/phrase
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/activities/phrase
         /// </summary>
         public readonly xAPI_Activity phrase = new xAPI_Activity(
             context: "voice",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A question is a specialized sentence, which expresses a problem, a point which need to be considered, a doubt, argument or uncertainty. A question often has a prompting character.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/question
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/activities/question
         /// </summary>
         public readonly xAPI_Activity question = new xAPI_Activity(
             context: "voice",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A sentence is a group of words.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/activities/sentence
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/activities/sentence
         /// </summary>
         public readonly xAPI_Activity sentence = new xAPI_Activity(
             context: "voice",

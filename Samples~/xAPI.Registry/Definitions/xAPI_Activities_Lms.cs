@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Lms : xAPI_Activities {
         /// <summary>
         /// An assignment object. Provides the students with a task description and further needed materials and allows to upload a submission.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/assign
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/assign
         /// </summary>
         public readonly xAPI_Activity assign = new xAPI_Activity(
             context: "lms",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A book, containing multiple texts and images, structured as chapters.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/book
         /// </summary>
         public readonly xAPI_Activity book = new xAPI_Activity(
             context: "lms",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A chapter of a book.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/book_chapter
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/book_chapter
         /// </summary>
         public readonly xAPI_Activity book_chapter = new xAPI_Activity(
             context: "lms",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A chat to communicate with others.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/chat
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/chat
         /// </summary>
         public readonly xAPI_Activity chat = new xAPI_Activity(
             context: "lms",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An activity to present course participants a list of pre-defined answers to choose from.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/choice
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/choice
         /// </summary>
         public readonly xAPI_Activity choice = new xAPI_Activity(
             context: "lms",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Interactions of a user within an LMS client (like a browser tab), e.g., key strokes, mouse movements or clicks, touches.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/clientSideInteraction
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/clientSideInteraction
         /// </summary>
         public readonly xAPI_Activity clientSideInteraction = new xAPI_Activity(
             context: "lms",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The client's view on the LMS, usually a tab in a browser.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/clientView
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/clientView
         /// </summary>
         public readonly xAPI_Activity clientView = new xAPI_Activity(
             context: "lms",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A course within an LMS. Contains learning materials and activities
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/course
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/course
         /// </summary>
         public readonly xAPI_Activity course = new xAPI_Activity(
             context: "lms",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An activity to create surveys, questionnaires or polls with.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/feedback
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/feedback
         /// </summary>
         public readonly xAPI_Activity feedback = new xAPI_Activity(
             context: "lms",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A collection of files.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/folder
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/folder
         /// </summary>
         public readonly xAPI_Activity folder = new xAPI_Activity(
             context: "lms",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A forum for discussion.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/forum
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/forum
         /// </summary>
         public readonly xAPI_Activity forum = new xAPI_Activity(
             context: "lms",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single discussion/thread within a forum.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/forumDiscussion
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/forumDiscussion
         /// </summary>
         public readonly xAPI_Activity forumDiscussion = new xAPI_Activity(
             context: "lms",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single post within a forum's discussion.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/forumPost
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/forumPost
         /// </summary>
         public readonly xAPI_Activity forumPost = new xAPI_Activity(
             context: "lms",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A collection of definitions, resources and information.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/glossary
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/glossary
         /// </summary>
         public readonly xAPI_Activity glossary = new xAPI_Activity(
             context: "lms",
@@ -203,7 +203,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single entry within a glossary (e.g. a definition, resource or information).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/glossaryEntry
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/glossaryEntry
         /// </summary>
         public readonly xAPI_Activity glossaryEntry = new xAPI_Activity(
             context: "lms",
@@ -217,7 +217,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Single item that represents the grading of a single activity within a course. Can be used for grade or point calculation for the whole course.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/gradeItem
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/gradeItem
         /// </summary>
         public readonly xAPI_Activity gradeItem = new xAPI_Activity(
             context: "lms",
@@ -231,7 +231,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// H5P is an abbreviation for HTML5 Package - interactive content such as presentations, videos and other multimedia, questions, quizzes, games and more. The H5P activity enables H5P to be uploaded and added to a course.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/h5pactivity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/h5pactivity
         /// </summary>
         public readonly xAPI_Activity h5pactivity = new xAPI_Activity(
             context: "lms",
@@ -245,7 +245,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// H5P (HVP) is an abbreviation for HTML5 Package - interactive content such as presentations, videos and other multimedia, questions, quizzes, games and more. The H5P activity enables H5P to be uploaded and added to a course.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/hvp
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/hvp
         /// </summary>
         public readonly xAPI_Activity hvp = new xAPI_Activity(
             context: "lms",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A collection of pages and links to guide course participants through a topic.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/lesson
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/lesson
         /// </summary>
         public readonly xAPI_Activity lesson = new xAPI_Activity(
             context: "lms",
@@ -273,7 +273,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A Learning Management System (LMS)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/lms
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/lms
         /// </summary>
         public readonly xAPI_Activity lms = new xAPI_Activity(
             context: "lms",
@@ -287,7 +287,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A page within a course displaying custom content like text, images, videos and more.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/page
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/page
         /// </summary>
         public readonly xAPI_Activity page = new xAPI_Activity(
             context: "lms",
@@ -301,7 +301,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Plugin for collaborative markup on PDF documents.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/pdfannotator
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/pdfannotator
         /// </summary>
         public readonly xAPI_Activity pdfannotator = new xAPI_Activity(
             context: "lms",
@@ -315,7 +315,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single question that can be used in quizzes.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/question
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/question
         /// </summary>
         public readonly xAPI_Activity question = new xAPI_Activity(
             context: "lms",
@@ -329,7 +329,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single attempt of a question.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/questionAttempt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/questionAttempt
         /// </summary>
         public readonly xAPI_Activity questionAttempt = new xAPI_Activity(
             context: "lms",
@@ -343,7 +343,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A category groupinng different questions e.g. by topic or course.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/questionCategory
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/questionCategory
         /// </summary>
         public readonly xAPI_Activity questionCategory = new xAPI_Activity(
             context: "lms",
@@ -357,7 +357,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A quiz object. Contains one or more questions that can be answered by a student.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/quiz
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/quiz
         /// </summary>
         public readonly xAPI_Activity quiz = new xAPI_Activity(
             context: "lms",
@@ -371,7 +371,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single attempt of a quiz. Contains attempts of the questions used in the quiz, this attempt relates to.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/quizAttempt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/quizAttempt
         /// </summary>
         public readonly xAPI_Activity quizAttempt = new xAPI_Activity(
             context: "lms",
@@ -385,7 +385,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Interface to review a (graded) quiz attempt. Might contain feedback to given answers and the sample solution.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/quizAttemptReview
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/quizAttemptReview
         /// </summary>
         public readonly xAPI_Activity quizAttemptReview = new xAPI_Activity(
             context: "lms",
@@ -399,7 +399,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Overview of a quz attempt. Allows to see which questions are answered and which are not or only partially.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/quizAttemptSummary
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/quizAttemptSummary
         /// </summary>
         public readonly xAPI_Activity quizAttemptSummary = new xAPI_Activity(
             context: "lms",
@@ -413,7 +413,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The position within a quiz, a question is placed in. Represented by an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/quizSlot
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/quizSlot
         /// </summary>
         public readonly xAPI_Activity quizSlot = new xAPI_Activity(
             context: "lms",
@@ -427,7 +427,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A course resource as a single file (e.g. PDF).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/resource
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/resource
         /// </summary>
         public readonly xAPI_Activity resource = new xAPI_Activity(
             context: "lms",
@@ -441,7 +441,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An URL object, linking to another website or web resource.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/url
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/url
         /// </summary>
         public readonly xAPI_Activity url = new xAPI_Activity(
             context: "lms",
@@ -455,7 +455,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A collection of pages linking to each other. All versions of the pages are stored to keep track of edits.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/wiki
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/wiki
         /// </summary>
         public readonly xAPI_Activity wiki = new xAPI_Activity(
             context: "lms",
@@ -469,7 +469,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A single page within a wiki.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/wikiPage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/wikiPage
         /// </summary>
         public readonly xAPI_Activity wikiPage = new xAPI_Activity(
             context: "lms",
@@ -483,7 +483,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A Workshop, also Peer Assessment, object is a multiple step task. Students submit assignments via file or text and grade the submission of others based on a review sheet provided by the lecturer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/workshop
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/workshop
         /// </summary>
         public readonly xAPI_Activity workshop = new xAPI_Activity(
             context: "lms",

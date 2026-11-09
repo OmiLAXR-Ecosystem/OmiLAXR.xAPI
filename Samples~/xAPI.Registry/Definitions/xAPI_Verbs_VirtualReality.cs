@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_VirtualReality : xAPI_Verbs {
         /// <summary>
         /// An actor has created a virtual object in the VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "virtualReality",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The actor grabbed an object in a virtual reality environment. This action involves interacting with a virtual object using hand tracking, controllers, or other input methods, providing context about the actor's interactions within the VR experience.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/grabbed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/grabbed
         /// </summary>
         public readonly xAPI_Verb grabbed = new xAPI_Verb(
             context: "virtualReality",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor interacted with the VR object in the VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/interacted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/interacted
         /// </summary>
         public readonly xAPI_Verb interacted = new xAPI_Verb(
             context: "virtualReality",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has changed a virtual object's position in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/moved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/moved
         /// </summary>
         public readonly xAPI_Verb moved = new xAPI_Verb(
             context: "virtualReality",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has placed a virtual object in the VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/placed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/placed
         /// </summary>
         public readonly xAPI_Verb placed = new xAPI_Verb(
             context: "virtualReality",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has pointed on an VR object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/pointed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/pointed
         /// </summary>
         public readonly xAPI_Verb pointed = new xAPI_Verb(
             context: "virtualReality",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The actor has pressed a controller button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/pressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/pressed
         /// </summary>
         public readonly xAPI_Verb pressed = new xAPI_Verb(
             context: "virtualReality",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The actor has released a controller button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/released
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/released
         /// </summary>
         public readonly xAPI_Verb released = new xAPI_Verb(
             context: "virtualReality",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has removed a virtual object from the VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/removed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/removed
         /// </summary>
         public readonly xAPI_Verb removed = new xAPI_Verb(
             context: "virtualReality",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has changed a virtual object's rotation in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/rotated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/rotated
         /// </summary>
         public readonly xAPI_Verb rotated = new xAPI_Verb(
             context: "virtualReality",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has changed a virtual object's scale in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/scaled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/scaled
         /// </summary>
         public readonly xAPI_Verb scaled = new xAPI_Verb(
             context: "virtualReality",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has changed her own position in VR environment by teleport.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/teleported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/teleported
         /// </summary>
         public readonly xAPI_Verb teleported = new xAPI_Verb(
             context: "virtualReality",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has touched a virtual object in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/verbs/touched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/verbs/touched
         /// </summary>
         public readonly xAPI_Verb touched = new xAPI_Verb(
             context: "virtualReality",

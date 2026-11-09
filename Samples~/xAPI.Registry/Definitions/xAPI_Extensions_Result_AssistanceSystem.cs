@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The time where an event actually happened.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/actualTime
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/result/actualTime
         /// </summary>
         public xAPI_Extensions_Result_AssistanceSystem actualTime(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The difference between two objects, behaviors or persons.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/difference
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/result/difference
         /// </summary>
         public xAPI_Extensions_Result_AssistanceSystem difference(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The planned time for an event to happen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/plannedTime
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/result/plannedTime
         /// </summary>
         public xAPI_Extensions_Result_AssistanceSystem plannedTime(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A predetermined limit that triggers a specified action or event, when reached or exceeded.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/result/threshold
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/result/threshold
         /// </summary>
         public xAPI_Extensions_Result_AssistanceSystem threshold(object value) {
             Add(new xAPI_Extension(

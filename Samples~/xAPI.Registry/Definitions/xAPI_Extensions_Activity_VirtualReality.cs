@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// It is the name of an action.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/actionName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/actionName
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality actionName(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Sequence of vertices with it's index, color and position.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/triangle
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/triangle
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality triangle(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The max. value of an ui element, could be input controls e.g. buttons, slider, navigational e.g. breadcrumbs or a navigation panel, or informational elements e.g. message panel. The Value could include the selected value, but could also contain information about the range. So that a phrase such as &gt;21 out of 42&lt; indicates that the slider, which ranges from 1 to 42 was changed to the value 21. {value; min; max}: {21, 1,42}.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementMaxValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/uiElementMaxValue
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality uiElementMaxValue(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The min. value of an ui element, could be input controls e.g. buttons, slider, navigational e.g. breadcrumbs or a navigation panel, or informational elements e.g. message panel. The Value could include the selected value, but could also contain information about the range. So that a phrase such as &gt;21 out of 42&lt; indicates that the slider, which ranges from 1 to 42 was changed to the value 21. {value; min; max}: {21, 1,42}.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementMinValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/uiElementMinValue
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality uiElementMinValue(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Describes the available list of options of the interactive interface element (e.g. Dropdown). Can be a string array.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementOptions
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/uiElementOptions
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality uiElementOptions(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Describes the type of the interactive interface element. Could specify the element or the category of the element depending on the needs, e.g. categories: input controls, navigation or informational components or containers vs direct element: button, checkbox, dropdown, breadcrumb, tooltip… and so on.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementType
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/uiElementType
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality uiElementType(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A value of an ui element, could be input controls e.g. buttons, slider, navigational e.g. breadcrumbs or a navigation panel, or informational elements e.g. message panel. The Value could include the selected value, but could also contain information about the range. So that a phrase such as &gt;21 out of 42&lt; indicates that the slider, which ranges from 1 to 42 was changed to the value 21. {value; min; max}: {21, 1,42}.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/uiElementValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/uiElementValue
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality uiElementValue(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of a VR object. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity/vrObjectName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity/vrObjectName
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality vrObjectName(object value) {
             Add(new xAPI_Extension(

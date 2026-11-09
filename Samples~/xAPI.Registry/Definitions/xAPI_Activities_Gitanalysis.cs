@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Gitanalysis : xAPI_Activities {
         /// <summary>
         /// A collection of commits that are pushed to the repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/changes
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/changes
         /// </summary>
         public readonly xAPI_Activity changes = new xAPI_Activity(
             context: "gitanalysis",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A commit made by a user, which contains changes to the content of the repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/commit
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/commit
         /// </summary>
         public readonly xAPI_Activity commit = new xAPI_Activity(
             context: "gitanalysis",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An issue used on GitLab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/issue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/issue
         /// </summary>
         public readonly xAPI_Activity issue = new xAPI_Activity(
             context: "gitanalysis",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A request made by an actor to merge content of one branch to another.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/mergerequest
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/mergerequest
         /// </summary>
         public readonly xAPI_Activity mergerequest = new xAPI_Activity(
             context: "gitanalysis",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A CI/CD pipeline, that was triggered in a GitLab repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/pipeline
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/pipeline
         /// </summary>
         public readonly xAPI_Activity pipeline = new xAPI_Activity(
             context: "gitanalysis",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A wiki page in a repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/activities/wikipage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/activities/wikipage
         /// </summary>
         public readonly xAPI_Activity wikipage = new xAPI_Activity(
             context: "gitanalysis",

@@ -8,5 +8,5 @@
         "de-DE": "H5P (HVP) ist eine Abkürzung für HTML5 Package - interaktive Inhalte wie Präsentationen, Videos und andere multimediale Inhalte, Fragen, Tests, Spiele und mehr. Mit der H5P-Aktivität kann H5P hochgeladen und einem Kurs hinzugefügt werden."
     },
     "exactMatch": [ ],
-    "relatedMatch": [ "https://xapi.elearn.rwth-aachen.de/definitions/lms/activities/h5pactivity" ]
+    "relatedMatch": [ "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/activities/h5pactivity" ]
 }

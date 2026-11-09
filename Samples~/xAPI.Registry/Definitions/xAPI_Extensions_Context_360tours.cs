@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Unique identifier of a 360° tour.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/context/tourId
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/context/tourId
         /// </summary>
         public xAPI_Extensions_Context_360tours tourId(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Unique identifier of a user account.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/context/userId
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/context/userId
         /// </summary>
         public xAPI_Extensions_Context_360tours userId(object value) {
             Add(new xAPI_Extension(

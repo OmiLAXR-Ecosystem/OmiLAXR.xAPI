@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_ExerciseGenerator : xAPI_Verbs {
         /// <summary>
         /// Actor accessed/viewed the generator, an existing exercise, ... 
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/verbs/accessed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/exerciseGenerator/verbs/accessed
         /// </summary>
         public readonly xAPI_Verb accessed = new xAPI_Verb(
             context: "exerciseGenerator",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor exported an exercise, e.g. as a PDF, image, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/verbs/exported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/exerciseGenerator/verbs/exported
         /// </summary>
         public readonly xAPI_Verb exported = new xAPI_Verb(
             context: "exerciseGenerator",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor used the exercise generator to generate a new exercise..
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/exerciseGenerator/verbs/generated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/exerciseGenerator/verbs/generated
         /// </summary>
         public readonly xAPI_Verb generated = new xAPI_Verb(
             context: "exerciseGenerator",

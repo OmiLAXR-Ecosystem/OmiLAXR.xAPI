@@ -7,10 +7,10 @@
     },
         "choices": [
             {
-                "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es sich genauer an"],
+                "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/es sich genauer an"],
                 "rules" : [
                     {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"],
+                        "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/setzt geeignete Mittel einführt geeignete Handlungen aus, um das Ziel zu erreichen"],
                         "result":{
                             "score":{
                               "raw": 5,
@@ -22,10 +22,10 @@
                 ]
             },
             {
-                "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus dem Fenster"],
+                "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/aus dem Fenster"],
                 "rules" : [
                     {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
+                        "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
                         "result":{
                             "score":{
                               "raw": 2,
@@ -35,7 +35,7 @@
                         }
                     },
                     {
-                        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
+                        "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/stellt eigene Bedürfnisse hinten an, wenn es die Situation erfordert"],
                         "result":{
                             "score":{
                               "raw": 2,

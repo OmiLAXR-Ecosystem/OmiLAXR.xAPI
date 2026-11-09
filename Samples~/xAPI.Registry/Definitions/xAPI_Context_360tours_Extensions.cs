@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of '360tours': 3 in activity, 2 in context.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_360tours activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of '360tours': 3 in activity, 2 in context.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_360tours context {
             get {

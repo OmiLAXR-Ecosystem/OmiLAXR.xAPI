@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Multitouch : xAPI_Activities {
         /// <summary>
         /// Something an actor can press, which then triggers an action in the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/button
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/activities/button
         /// </summary>
         public readonly xAPI_Activity button = new xAPI_Activity(
             context: "multitouch",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Something which can be collected inside the game to fullfill a task or goal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/collectable
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/activities/collectable
         /// </summary>
         public readonly xAPI_Activity collectable = new xAPI_Activity(
             context: "multitouch",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Something that can be dragged across the screen in the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/draggable
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/activities/draggable
         /// </summary>
         public readonly xAPI_Activity draggable = new xAPI_Activity(
             context: "multitouch",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Something a player can interact with in the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/interactable
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/activities/interactable
         /// </summary>
         public readonly xAPI_Activity interactable = new xAPI_Activity(
             context: "multitouch",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The screen showing the game and being clicked or touched on for interaction with the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/activities/screen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/activities/screen
         /// </summary>
         public readonly xAPI_Activity screen = new xAPI_Activity(
             context: "multitouch",

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Organ of the visual system. Actors physical (left or right) eye.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/activity/eye
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/extensions/activity/eye
         /// </summary>
         public xAPI_Extensions_Activity_EyeTracking eye(object value) {
             Add(new xAPI_Extension(

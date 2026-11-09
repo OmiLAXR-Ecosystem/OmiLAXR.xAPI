@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mouse position of the screen. Must be a string with coordinates of '(x,y)'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/result/mousePosition
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/result/mousePosition
         /// </summary>
         public xAPI_Extensions_Result_Ide mousePosition(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Seconds past after startup. Must be a float value, where 1.0 is one second.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/result/secondsSinceStartup
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/result/secondsSinceStartup
         /// </summary>
         public xAPI_Extensions_Result_Ide secondsSinceStartup(object value) {
             Add(new xAPI_Extension(

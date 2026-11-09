@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_VrRfidChamber : xAPI_Verbs {
         /// <summary>
         /// An actor clicked something on the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor closed an the door of the RFID chamber.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The system scan is completed to check the RFID output.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/completed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/completed
         /// </summary>
         public readonly xAPI_Verb completed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor dragged and pulled an object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/dragPull
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/dragPull
         /// </summary>
         public readonly xAPI_Verb dragPull = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor dragged and pushed an object on the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/dragPush
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/dragPush
         /// </summary>
         public readonly xAPI_Verb dragPush = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has dragged an object across the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/dragged
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/dragged
         /// </summary>
         public readonly xAPI_Verb dragged = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has focused on the RFID tag.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/focussed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/focussed
         /// </summary>
         public readonly xAPI_Verb focussed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has interacted with the object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/interacted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/interacted
         /// </summary>
         public readonly xAPI_Verb interacted = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has opened the object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/opened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/opened
         /// </summary>
         public readonly xAPI_Verb opened = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor panned the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/panned
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/panned
         /// </summary>
         public readonly xAPI_Verb panned = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -127,7 +127,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has pressed the keyboard.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/pressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/pressed
         /// </summary>
         public readonly xAPI_Verb pressed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -139,7 +139,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has released the object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/released
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/released
         /// </summary>
         public readonly xAPI_Verb released = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -151,7 +151,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has removed an object from the target.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/removed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/removed
         /// </summary>
         public readonly xAPI_Verb removed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -163,7 +163,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor rotated a lab object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/rotated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/rotated
         /// </summary>
         public readonly xAPI_Verb rotated = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has started the object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -187,7 +187,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has terminated the operation.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/terminated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/terminated
         /// </summary>
         public readonly xAPI_Verb terminated = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -199,7 +199,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor unforcused the object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/unfocussed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/unfocussed
         /// </summary>
         public readonly xAPI_Verb unfocussed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -211,7 +211,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has viewed the object details
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/viewed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/viewed
         /// </summary>
         public readonly xAPI_Verb viewed = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -223,7 +223,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has visited the virtual lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/visited
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/visited
         /// </summary>
         public readonly xAPI_Verb visited = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -235,7 +235,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has watched the formation of the graph.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/watched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/watched
         /// </summary>
         public readonly xAPI_Verb watched = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -247,7 +247,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed into some part of the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/zoomedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/zoomedIn
         /// </summary>
         public readonly xAPI_Verb zoomedIn = new xAPI_Verb(
             context: "vrRfidChamber",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed out of some part of the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/verbs/zoomedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/verbs/zoomedOut
         /// </summary>
         public readonly xAPI_Verb zoomedOut = new xAPI_Verb(
             context: "vrRfidChamber",

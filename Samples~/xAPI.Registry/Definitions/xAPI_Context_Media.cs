@@ -6,19 +6,19 @@ namespace xAPI.Registry {
     public class xAPI_Context_Media : xAPI_Context {
         /// <summary>
         /// 8 verbs of 'media'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs
         /// </summary>
         public readonly xAPI_Verbs_Media verbs = new xAPI_Verbs_Media();
 
         /// <summary>
         /// 2 activities of 'media'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/activities
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/activities
         /// </summary>
         public readonly xAPI_Activities_Media activities = new xAPI_Activities_Media();
 
         /// <summary>
         /// 0 extensions of 'media': .
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/extensions
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/extensions
         /// </summary>
         public readonly xAPI_Context_Media_Extensions extensions = new xAPI_Context_Media_Extensions();
 

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents the content of an instruction provided by the system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity/instructionContent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/activity/instructionContent
         /// </summary>
         public xAPI_Extensions_Activity_SystemControl instructionContent(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents the type of an instruction provided by the system. It can be e.g. a text, or audio.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity/instructionType
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/activity/instructionType
         /// </summary>
         public xAPI_Extensions_Activity_SystemControl instructionType(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of a system control activity. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity/name
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/activity/name
         /// </summary>
         public xAPI_Extensions_Activity_SystemControl name(object value) {
             Add(new xAPI_Extension(

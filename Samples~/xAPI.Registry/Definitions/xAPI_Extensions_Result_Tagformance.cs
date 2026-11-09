@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The time taken to complete the experiment. This is captured from the system time of the local machine.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/result/duration
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/result/duration
         /// </summary>
         public xAPI_Extensions_Result_Tagformance duration(object value) {
             Add(new xAPI_Extension(
@@ -29,7 +29,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Boolean value which is true when something is empty.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/result/empty
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/result/empty
         /// </summary>
         public xAPI_Extensions_Result_Tagformance empty(object value) {
             Add(new xAPI_Extension(

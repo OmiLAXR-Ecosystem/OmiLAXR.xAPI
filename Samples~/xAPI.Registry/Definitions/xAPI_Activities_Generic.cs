@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Generic : xAPI_Activities {
         /// <summary>
         /// Response to a question given or received by the user.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/answer
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/answer
         /// </summary>
         public readonly xAPI_Activity answer = new xAPI_Activity(
             context: "generic",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A button to go backward on a page or a graphical user interface (navigation).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/backwardButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/backwardButton
         /// </summary>
         public readonly xAPI_Activity backwardButton = new xAPI_Activity(
             context: "generic",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A card, for example showning information inside a game or to display a task in a Kanban-Board.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/card
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/card
         /// </summary>
         public readonly xAPI_Activity card = new xAPI_Activity(
             context: "generic",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A widget which allows users to select a color.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/colorPicker
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/colorPicker
         /// </summary>
         public readonly xAPI_Activity colorPicker = new xAPI_Activity(
             context: "generic",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A decision to be made which is relevant for the game/process/scenario/situation outcome.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/decision
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/decision
         /// </summary>
         public readonly xAPI_Activity decision = new xAPI_Activity(
             context: "generic",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An electronic document of the type produced by office productivity software such as a word processing document, spreadsheet, slides etc. Depending on the context it can also describe e.g. a document in a game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/document
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/document
         /// </summary>
         public readonly xAPI_Activity document = new xAPI_Activity(
             context: "generic",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A system to track gazes of an actor.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/eyeTrackingSystem
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/eyeTrackingSystem
         /// </summary>
         public readonly xAPI_Activity eyeTrackingSystem = new xAPI_Activity(
             context: "generic",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A collection of in - most cases - connected data on a disk which is stored together under a particular name.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/file
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/file
         /// </summary>
         public readonly xAPI_Activity file = new xAPI_Activity(
             context: "generic",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A button to go forward on a page or a screen (navigation).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/forwardButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/forwardButton
         /// </summary>
         public readonly xAPI_Activity forwardButton = new xAPI_Activity(
             context: "generic",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A goal is something that the actor wants to achieve, the purpose of doing a task or group of tasks. It can have subtasks and subgoals.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/goal
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/goal
         /// </summary>
         public readonly xAPI_Activity goal = new xAPI_Activity(
             context: "generic",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents a grouping of objects or persons in which member objects can join or leave.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/group
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/group
         /// </summary>
         public readonly xAPI_Activity group = new xAPI_Activity(
             context: "generic",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Something an actor can ask for to find the solution to a task.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/help
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/help
         /// </summary>
         public readonly xAPI_Activity help = new xAPI_Activity(
             context: "generic",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents a graphical image. Can be an interactible, for example objects of this type may contain an additional fullImage property whose value is an Activity Streams Media Link to a "full-sized" representation of the image.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/image
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/image
         /// </summary>
         public readonly xAPI_Activity image = new xAPI_Activity(
             context: "generic",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A keyboard to input text or interact with the game in another way.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/keyboard
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/keyboard
         /// </summary>
         public readonly xAPI_Activity keyboard = new xAPI_Activity(
             context: "generic",
@@ -203,7 +203,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A reference to data that the user can follow. Links can either point to a whole document (e.g. website) or to a specific element within a document.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/link
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/link
         /// </summary>
         public readonly xAPI_Activity link = new xAPI_Activity(
             context: "generic",
@@ -217,7 +217,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of possible choices that are shown, e.g. start menu or ingame menu for settings.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/menu
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/menu
         /// </summary>
         public readonly xAPI_Activity menu = new xAPI_Activity(
             context: "generic",
@@ -231,7 +231,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A mouse to use UI or interact with the system in another way.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/mouse
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/mouse
         /// </summary>
         public readonly xAPI_Activity mouse = new xAPI_Activity(
             context: "generic",
@@ -245,7 +245,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A number shown on the screen that can be interacted with in some way for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/number
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/number
         /// </summary>
         public readonly xAPI_Activity number = new xAPI_Activity(
             context: "generic",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An option is something a player can decide for or against in the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/option
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/option
         /// </summary>
         public readonly xAPI_Activity option = new xAPI_Activity(
             context: "generic",
@@ -273,7 +273,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A question can be asked or answered.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/question
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/question
         /// </summary>
         public readonly xAPI_Activity question = new xAPI_Activity(
             context: "generic",
@@ -287,7 +287,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A system interacting with the game which is not running on the same machine as the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/remoteSystem
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/remoteSystem
         /// </summary>
         public readonly xAPI_Activity remoteSystem = new xAPI_Activity(
             context: "generic",
@@ -301,7 +301,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Data which is gathered by a sensor.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/sensorData
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/sensorData
         /// </summary>
         public readonly xAPI_Activity sensorData = new xAPI_Activity(
             context: "generic",
@@ -315,7 +315,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The settings of a system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/settings
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/settings
         /// </summary>
         public readonly xAPI_Activity settings = new xAPI_Activity(
             context: "generic",
@@ -329,7 +329,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The solution to a task in the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/solution
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/solution
         /// </summary>
         public readonly xAPI_Activity solution = new xAPI_Activity(
             context: "generic",
@@ -343,7 +343,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The status wether a task can be completed in the current state.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/solvability
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/solvability
         /// </summary>
         public readonly xAPI_Activity solvability = new xAPI_Activity(
             context: "generic",
@@ -357,7 +357,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A button to start a video.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/startVideoButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/startVideoButton
         /// </summary>
         public readonly xAPI_Activity startVideoButton = new xAPI_Activity(
             context: "generic",
@@ -371,7 +371,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A button to stop a video.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/stopVideoButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/stopVideoButton
         /// </summary>
         public readonly xAPI_Activity stopVideoButton = new xAPI_Activity(
             context: "generic",
@@ -385,7 +385,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A device to interact with the system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/tangible
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/tangible
         /// </summary>
         public readonly xAPI_Activity tangible = new xAPI_Activity(
             context: "generic",
@@ -399,7 +399,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Some part of the goal or something to be completed to progress within the game or a level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/task
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/task
         /// </summary>
         public readonly xAPI_Activity task = new xAPI_Activity(
             context: "generic",
@@ -413,7 +413,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A text which can be read or entered.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/text
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/text
         /// </summary>
         public readonly xAPI_Activity text = new xAPI_Activity(
             context: "generic",
@@ -427,7 +427,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A tip on how to solve a task.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/tip
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/tip
         /// </summary>
         public readonly xAPI_Activity tip = new xAPI_Activity(
             context: "generic",
@@ -441,7 +441,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A tooltip is a little pop-up, which gives some information about a certain element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/tooltip
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/tooltip
         /// </summary>
         public readonly xAPI_Activity tooltip = new xAPI_Activity(
             context: "generic",
@@ -455,7 +455,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A video which can be watched inside the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/video
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/video
         /// </summary>
         public readonly xAPI_Activity video = new xAPI_Activity(
             context: "generic",
@@ -469,7 +469,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A word shown on the screen that eventually can be interacted with in some way.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/activities/word
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/activities/word
         /// </summary>
         public readonly xAPI_Activity word = new xAPI_Activity(
             context: "generic",

@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_VrRfidChamber : xAPI_Activities {
         /// <summary>
         /// Something an actor can press, which then triggers an action in the lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/button
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/button
         /// </summary>
         public readonly xAPI_Activity button = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Some kind of written text to explain an action
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/comment
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/comment
         /// </summary>
         public readonly xAPI_Activity comment = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents the RFID chamber.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/device
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/device
         /// </summary>
         public readonly xAPI_Activity device = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor opened or closed the door
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/door
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/door
         /// </summary>
         public readonly xAPI_Activity door = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Clicking an item, holding the click and moving it around the lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/draggable
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/draggable
         /// </summary>
         public readonly xAPI_Activity draggable = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A keyboard used to input text or interact with the lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/keyboard
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/keyboard
         /// </summary>
         public readonly xAPI_Activity keyboard = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Some audio content to feel the rela atmosphere of the lab. This can be switched on or off
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/labAudio
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/labAudio
         /// </summary>
         public readonly xAPI_Activity labAudio = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A mouse used to click on buttons or drag items in the lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/mouse
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/mouse
         /// </summary>
         public readonly xAPI_Activity mouse = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The screen showing the virtual lab and can be clicked or touched on for interaction with the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/screen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/screen
         /// </summary>
         public readonly xAPI_Activity screen = new xAPI_Activity(
             context: "vrRfidChamber",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Some kind of selection is represented by this. It is given by user.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/activities/selection
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/activities/selection
         /// </summary>
         public readonly xAPI_Activity selection = new xAPI_Activity(
             context: "vrRfidChamber",

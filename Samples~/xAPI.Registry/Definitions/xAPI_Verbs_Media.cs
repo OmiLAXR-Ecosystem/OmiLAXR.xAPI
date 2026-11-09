@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Media : xAPI_Verbs {
         /// <summary>
         /// An actor reached the end of a media element and its playing was stopped by the player itself.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/finished
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/finished
         /// </summary>
         public readonly xAPI_Verb finished = new xAPI_Verb(
             context: "media",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor interacted with a media element. This might have changed the elements volume or playback rate.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/interacted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/interacted
         /// </summary>
         public readonly xAPI_Verb interacted = new xAPI_Verb(
             context: "media",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor paused a playing media element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/paused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/paused
         /// </summary>
         public readonly xAPI_Verb paused = new xAPI_Verb(
             context: "media",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor restarted playing a media element after finishing it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/restarted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/restarted
         /// </summary>
         public readonly xAPI_Verb restarted = new xAPI_Verb(
             context: "media",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor continued playing a media element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/resumed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/resumed
         /// </summary>
         public readonly xAPI_Verb resumed = new xAPI_Verb(
             context: "media",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor seeked to a part of the media element either forward or backward.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/seeked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/seeked
         /// </summary>
         public readonly xAPI_Verb seeked = new xAPI_Verb(
             context: "media",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor skipped a part of the media element either forward or backward. LEGACY! Use seeked instead.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/skipped
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/skipped
         /// </summary>
         public readonly xAPI_Verb skipped = new xAPI_Verb(
             context: "media",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor started playing a media element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "media",

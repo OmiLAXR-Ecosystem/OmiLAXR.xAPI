@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Value representing a length of time required to complete the experiment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/duration
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/result/duration
         /// </summary>
         public xAPI_Extensions_Result_VrRfidChamber duration(object value) {
             Add(new xAPI_Extension(
@@ -29,7 +29,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The time when the experiment was completed that is when the software was closed. This is captured from the system time of the local machine.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/endTime
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/result/endTime
         /// </summary>
         public xAPI_Extensions_Result_VrRfidChamber endTime(object value) {
             Add(new xAPI_Extension(
@@ -46,7 +46,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The experiment is a failure.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/failure
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/result/failure
         /// </summary>
         public xAPI_Extensions_Result_VrRfidChamber failure(object value) {
             Add(new xAPI_Extension(
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The time when the experiment began. This is captured from the system time of the local machine.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/startTime
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/result/startTime
         /// </summary>
         public xAPI_Extensions_Result_VrRfidChamber startTime(object value) {
             Add(new xAPI_Extension(
@@ -80,7 +80,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Experiment is successful.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/result/success
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/result/success
         /// </summary>
         public xAPI_Extensions_Result_VrRfidChamber success(object value) {
             Add(new xAPI_Extension(

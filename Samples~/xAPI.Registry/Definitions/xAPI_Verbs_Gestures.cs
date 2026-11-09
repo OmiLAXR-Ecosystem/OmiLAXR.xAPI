@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Gestures : xAPI_Verbs {
         /// <summary>
         /// An actor has gazed a part of her body in a direction.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/gazed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/gazed
         /// </summary>
         public readonly xAPI_Verb gazed = new xAPI_Verb(
             context: "gestures",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has gestured with part of her body (e.g. hands, feets, ...).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/gestured
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/gestured
         /// </summary>
         public readonly xAPI_Verb gestured = new xAPI_Verb(
             context: "gestures",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has nodded with her head. Could be collected by computation of headset movement or a webcam or by hand annotation.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/nodded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/nodded
         /// </summary>
         public readonly xAPI_Verb nodded = new xAPI_Verb(
             context: "gestures",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor performed something, e.g. a gesture
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/performed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/performed
         /// </summary>
         public readonly xAPI_Verb performed = new xAPI_Verb(
             context: "gestures",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has shaked something, for example a part of her body.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/verbs/shaked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/verbs/shaked
         /// </summary>
         public readonly xAPI_Verb shaked = new xAPI_Verb(
             context: "gestures",

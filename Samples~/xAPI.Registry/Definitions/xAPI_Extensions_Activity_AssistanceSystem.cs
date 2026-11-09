@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A condition, which, for example, checks if something was interacted with.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/activity/condition
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/activity/condition
         /// </summary>
         public xAPI_Extensions_Activity_AssistanceSystem condition(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A reaction, for example a sound notifying an person.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/activity/reaction
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/activity/reaction
         /// </summary>
         public xAPI_Extensions_Activity_AssistanceSystem reaction(object value) {
             Add(new xAPI_Extension(

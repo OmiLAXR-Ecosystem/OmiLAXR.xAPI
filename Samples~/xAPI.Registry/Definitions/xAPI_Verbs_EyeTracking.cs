@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_EyeTracking : xAPI_Verbs {
         /// <summary>
         /// Within this contexed indicates the verb closed, that the actor closed one or both eyes. Depending on the duration it can be distinguished between blinking - the  involuntary act of shutting and opening the eyelid (takes from 100 ms to 400 ms). Voluntary winks take longer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "eyeTracking",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor fixated an object with her eyes. A fixation was detected, i.e., the eyes stayed in a small area between 100 and 500 milliseconds without sakkades.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/verbs/fixated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/verbs/fixated
         /// </summary>
         public readonly xAPI_Verb fixated = new xAPI_Verb(
             context: "eyeTracking",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor focused an object with her eyes. The term focused describes a fixation, which is longer than a normal fixation with more than 500 milliseconds. Compare fixated
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/verbs/focused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/verbs/focused
         /// </summary>
         public readonly xAPI_Verb focused = new xAPI_Verb(
             context: "eyeTracking",

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of an UI element action, which the user interacted with. For example the read value checkbox has the name 'readValue'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/actionName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/context/actionName
         /// </summary>
         public xAPI_Extensions_Context_UhfReader actionName(object value) {
             Add(new xAPI_Extension(
@@ -29,7 +29,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An evaluation can have a type. For example a transponder can be evaluated externally using google by copying the id and pasting it externally.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/evaluationType
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/context/evaluationType
         /// </summary>
         public xAPI_Extensions_Context_UhfReader evaluationType(object value) {
             Add(new xAPI_Extension(
@@ -46,7 +46,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The selected element to read for the transponder.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/readTid
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/context/readTid
         /// </summary>
         public xAPI_Extensions_Context_UhfReader readTid(object value) {
             Add(new xAPI_Extension(
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The head that is selected to read the TID.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context/readingHead
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/context/readingHead
         /// </summary>
         public xAPI_Extensions_Context_UhfReader readingHead(object value) {
             Add(new xAPI_Extension(

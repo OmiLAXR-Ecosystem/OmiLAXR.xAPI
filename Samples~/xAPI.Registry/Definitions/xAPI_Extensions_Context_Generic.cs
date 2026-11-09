@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An assignment for a specific topic or a defined learning goal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/assignment
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context/assignment
         /// </summary>
         public xAPI_Extensions_Context_Generic assignment(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A learning scenario, which can consist of multiple learning units.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/learningScenario
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context/learningScenario
         /// </summary>
         public xAPI_Extensions_Context_Generic learningScenario(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A learning unit, where a specific topic is taught or a specific learning goal should be achieved with a set of assignments.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/learningUnit
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context/learningUnit
         /// </summary>
         public xAPI_Extensions_Context_Generic learningUnit(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A task of an assignment or learning unit.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/task
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context/task
         /// </summary>
         public xAPI_Extensions_Context_Generic task(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The version of the application instance. It should follow the semantic versioning principle of 'MAJOR.MINOR.PATCH'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/context/version
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/context/version
         /// </summary>
         public xAPI_Extensions_Context_Generic version(object value) {
             Add(new xAPI_Extension(

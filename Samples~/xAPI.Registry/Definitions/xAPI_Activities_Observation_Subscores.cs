@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Observation_Subscores : xAPI_Activities {
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer auf andere achtet/Rücksicht nimmt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/achtet_auf_anderenimmt_Ruecksicht
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/achtet_auf_anderenimmt_Ruecksicht
         /// </summary>
         public readonly xAPI_Activity achtet_auf_anderenimmt_Ruecksicht = new xAPI_Activity(
             context: "observation",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Gedanken klar und verständlich artikuliert
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/artikuliert_eigene_Gedanken_klar_und_verstaendlich
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/artikuliert_eigene_Gedanken_klar_und_verstaendlich
         /// </summary>
         public readonly xAPI_Activity artikuliert_eigene_Gedanken_klar_und_verstaendlich = new xAPI_Activity(
             context: "observation",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer den Zielzustand stets im Blick behält
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/behaelt_den_Zielzustand_stets_im_Blick
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/behaelt_den_Zielzustand_stets_im_Blick
         /// </summary>
         public readonly xAPI_Activity behaelt_den_Zielzustand_stets_im_Blick = new xAPI_Activity(
             context: "observation",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer stehts den Überblick behält
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/behaelt_stehts_den_Ueberblick
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/behaelt_stehts_den_Ueberblick
         /// </summary>
         public readonly xAPI_Activity behaelt_stehts_den_Ueberblick = new xAPI_Activity(
             context: "observation",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer sich sprachlich an Lösung der Aufgabe beteiligt/Fragen stellt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/beteiligt_sich_sprachlich_an_Loesung_der_Aufgabestellt_Fragen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/beteiligt_sich_sprachlich_an_Loesung_der_Aufgabestellt_Fragen
         /// </summary>
         public readonly xAPI_Activity beteiligt_sich_sprachlich_an_Loesung_der_Aufgabestellt_Fragen = new xAPI_Activity(
             context: "observation",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer in schwierigen/unangenehmen Situationen gelassen und ruhig bleibt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/bleibt_in_schwierigenunangenehmen_Situationen_gelassen_und_ruhig
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/bleibt_in_schwierigenunangenehmen_Situationen_gelassen_und_ruhig
         /// </summary>
         public readonly xAPI_Activity bleibt_in_schwierigenunangenehmen_Situationen_gelassen_und_ruhig = new xAPI_Activity(
             context: "observation",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Ideen entwickelt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/entwickelt_eigene_Ideen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/entwickelt_eigene_Ideen
         /// </summary>
         public readonly xAPI_Activity entwickelt_eigene_Ideen = new xAPI_Activity(
             context: "observation",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer erarbeitet ein klares Bild der Ausgangssituation/Problemstellung
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/erarbeitet_ein_klares_Bild_der_AusgangssituationProblemstellung
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/erarbeitet_ein_klares_Bild_der_AusgangssituationProblemstellung
         /// </summary>
         public readonly xAPI_Activity erarbeitet_ein_klares_Bild_der_AusgangssituationProblemstellung = new xAPI_Activity(
             context: "observation",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Möglichkeiten zur Strukturierung einer Aufgabe findet
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/findet_Moeglichkeiten_zur_Strukturierung_einer_Aufgabe
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/findet_Moeglichkeiten_zur_Strukturierung_einer_Aufgabe
         /// </summary>
         public readonly xAPI_Activity findet_Moeglichkeiten_zur_Strukturierung_einer_Aufgabe = new xAPI_Activity(
             context: "observation",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Bewegungen präzisegenau ausführt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/fuehrt_Bewegungen_praezisegenau_aus
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/fuehrt_Bewegungen_praezisegenau_aus
         /// </summary>
         public readonly xAPI_Activity fuehrt_Bewegungen_praezisegenau_aus = new xAPI_Activity(
             context: "observation",
@@ -127,7 +127,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Aufgaben zügig angeht
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/geht_Aufgaben_zuegig_an
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/geht_Aufgaben_zuegig_an
         /// </summary>
         public readonly xAPI_Activity geht_Aufgaben_zuegig_an = new xAPI_Activity(
             context: "observation",
@@ -139,7 +139,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer respektvoll und tolerant mit Meinungsverschiedenheiten umgeht
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um
         /// </summary>
         public readonly xAPI_Activity geht_respektvoll_und_tolerant_mit_Meinungsverschiedenheiten_um = new xAPI_Activity(
             context: "observation",
@@ -151,7 +151,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer nonverbal interagiert (zugewandte Körpersprache)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/interagiert_nonverbal_zugewandte_Koerpersprache
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/interagiert_nonverbal_zugewandte_Koerpersprache
         /// </summary>
         public readonly xAPI_Activity interagiert_nonverbal_zugewandte_Koerpersprache = new xAPI_Activity(
             context: "observation",
@@ -163,7 +163,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Entfernungen/Höhen/Tiefen einschätzen kann (im Raum/von Gegenständen)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kann_EntfernungenHoehenTiefen_einschaetzen_im_Raumvon_Gegenstaenden
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kann_EntfernungenHoehenTiefen_einschaetzen_im_Raumvon_Gegenstaenden
         /// </summary>
         public readonly xAPI_Activity kann_EntfernungenHoehenTiefen_einschaetzen_im_Raumvon_Gegenstaenden = new xAPI_Activity(
             context: "observation",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Maßstäbe im richtigen Verhältnis umsetzen kann (z.B. in Skizzen)
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kann_Massstaebe_im_richtigen_Verhaeltnis_umsetzen_zB_in_Skizzen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kann_Massstaebe_im_richtigen_Verhaeltnis_umsetzen_zB_in_Skizzen
         /// </summary>
         public readonly xAPI_Activity kann_Massstaebe_im_richtigen_Verhaeltnis_umsetzen_zB_in_Skizzen = new xAPI_Activity(
             context: "observation",
@@ -187,7 +187,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Pläne/Skizzen lesen, verstehen und umsetzen kann
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kann_PlaeneSkizzen_lesen_verstehen_und_umsetzen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kann_PlaeneSkizzen_lesen_verstehen_und_umsetzen
         /// </summary>
         public readonly xAPI_Activity kann_PlaeneSkizzen_lesen_verstehen_und_umsetzen = new xAPI_Activity(
             context: "observation",
@@ -199,7 +199,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer auch komplexe Sachverhalte ausdrücken und/oder verstehen kann
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kann_auch_komplexe_Sachverhalte_ausdruecken_undoder_verstehen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kann_auch_komplexe_Sachverhalte_ausdruecken_undoder_verstehen
         /// </summary>
         public readonly xAPI_Activity kann_auch_komplexe_Sachverhalte_ausdruecken_undoder_verstehen = new xAPI_Activity(
             context: "observation",
@@ -211,7 +211,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer auch schwierige feinmotorische Handlungen ausführen kann
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kann_auch_schwierige_feinmotorische_Handlungen_ausfuehren
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kann_auch_schwierige_feinmotorische_Handlungen_ausfuehren
         /// </summary>
         public readonly xAPI_Activity kann_auch_schwierige_feinmotorische_Handlungen_ausfuehren = new xAPI_Activity(
             context: "observation",
@@ -223,7 +223,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer andere ausreden lässt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/laesst_andere_ausreden
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/laesst_andere_ausreden
         /// </summary>
         public readonly xAPI_Activity laesst_andere_ausreden = new xAPI_Activity(
             context: "observation",
@@ -235,7 +235,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein AkteuerRücksicht auf eigene Bedürfnisse  nimmt/die eigene Meinung vertritt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nimmt_Ruecksicht_auf_eigene_Beduerfnissevertritt_die_eigene_Meinung
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/nimmt_Ruecksicht_auf_eigene_Beduerfnissevertritt_die_eigene_Meinung
         /// </summary>
         public readonly xAPI_Activity nimmt_Ruecksicht_auf_eigene_Beduerfnissevertritt_die_eigene_Meinung = new xAPI_Activity(
             context: "observation",
@@ -247,7 +247,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer das (eigene) Vorgehen plant und Schwerpunkte setzt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/plant_das_eigene_Vorgehen_und_setzt_Schwerpunkte
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/plant_das_eigene_Vorgehen_und_setzt_Schwerpunkte
         /// </summary>
         public readonly xAPI_Activity plant_das_eigene_Vorgehen_und_setzt_Schwerpunkte = new xAPI_Activity(
             context: "observation",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer geeignete Mittel einsetzt/geeignete Handlungen ausführt, um das Ziel zu erreichen
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/setzt_geeignete_Mittel_einfuehrt_geeignete_Handlungen_aus_um_das_Ziel_zu_erreichen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/setzt_geeignete_Mittel_einfuehrt_geeignete_Handlungen_aus_um_das_Ziel_zu_erreichen
         /// </summary>
         public readonly xAPI_Activity setzt_geeignete_Mittel_einfuehrt_geeignete_Handlungen_aus_um_das_Ziel_zu_erreichen = new xAPI_Activity(
             context: "observation",
@@ -271,7 +271,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Bedürfnisse hinten anstellt, wenn es die Situation erfordert
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/stellt_eigene_Beduerfnisse_hinten_an_wenn_es_die_Situation_erfordert
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/stellt_eigene_Beduerfnisse_hinten_an_wenn_es_die_Situation_erfordert
         /// </summary>
         public readonly xAPI_Activity stellt_eigene_Beduerfnisse_hinten_an_wenn_es_die_Situation_erfordert = new xAPI_Activity(
             context: "observation",
@@ -283,7 +283,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer verschiedne Lösungsansätze verfolgt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/verfolgt_verschiedene_Loesungsansaetze
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/verfolgt_verschiedene_Loesungsansaetze
         /// </summary>
         public readonly xAPI_Activity verfolgt_verschiedene_Loesungsansaetze = new xAPI_Activity(
             context: "observation",
@@ -295,7 +295,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer sich höflich, freundlich und wohlwollend verhält
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/verhaelt_sich_hoeflich_freundlich_und_wohlwollend
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/verhaelt_sich_hoeflich_freundlich_und_wohlwollend
         /// </summary>
         public readonly xAPI_Activity verhaelt_sich_hoeflich_freundlich_und_wohlwollend = new xAPI_Activity(
             context: "observation",
@@ -307,7 +307,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer geschriebene/bebilderte Informationen (z.B. Texte, Anweisungen) versteht
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/versteht_geschriebenebebilderte_Informationen_zB_Texte_Anweisungen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/versteht_geschriebenebebilderte_Informationen_zB_Texte_Anweisungen
         /// </summary>
         public readonly xAPI_Activity versteht_geschriebenebebilderte_Informationen_zB_Texte_Anweisungen = new xAPI_Activity(
             context: "observation",
@@ -319,7 +319,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer eigene Meinungen vertritt und sich dabei kompromissbereit zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/vertritt_eigene_Meinungen_und_zeigt_sich_dabei_kompromissbereit
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/vertritt_eigene_Meinungen_und_zeigt_sich_dabei_kompromissbereit
         /// </summary>
         public readonly xAPI_Activity vertritt_eigene_Meinungen_und_zeigt_sich_dabei_kompromissbereit = new xAPI_Activity(
             context: "observation",
@@ -331,7 +331,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Ideen visualisiert oder umschreibt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/visualisiert_oder_umschreibt_Ideen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/visualisiert_oder_umschreibt_Ideen
         /// </summary>
         public readonly xAPI_Activity visualisiert_oder_umschreibt_Ideen = new xAPI_Activity(
             context: "observation",
@@ -343,7 +343,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer immer wieder von sich aus aktiv wird
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/wird_immer_wieder_von_sich_aus_aktiv
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/wird_immer_wieder_von_sich_aus_aktiv
         /// </summary>
         public readonly xAPI_Activity wird_immer_wieder_von_sich_aus_aktiv = new xAPI_Activity(
             context: "observation",
@@ -355,7 +355,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Intresse, Stolz oder Freude zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt_Interesse_Stolz_oder_Freude
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/zeigt_Interesse_Stolz_oder_Freude
         /// </summary>
         public readonly xAPI_Activity zeigt_Interesse_Stolz_oder_Freude = new xAPI_Activity(
             context: "observation",
@@ -367,7 +367,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer aktiv Interesse an anderen Menschen und ihren Ansichten/Ideen zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen
         /// </summary>
         public readonly xAPI_Activity zeigt_aktiv_Interesse_an_anderen_Menschen_und_ihren_AnsichtenIdeen = new xAPI_Activity(
             context: "observation",
@@ -379,7 +379,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer sich hilfsbereit zeigt und andere aktiv unterstützt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/zeigt_sich_hilfsbereit_und_unterstuetzt_andere_aktiv
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/zeigt_sich_hilfsbereit_und_unterstuetzt_andere_aktiv
         /// </summary>
         public readonly xAPI_Activity zeigt_sich_hilfsbereit_und_unterstuetzt_andere_aktiv = new xAPI_Activity(
             context: "observation",
@@ -391,7 +391,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Subscore (5/5 bzw. ++) wenn ein Akteuer Bewegungen schnell/routiniert ausübt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/uebt_Bewegungen_schnellroutiniert_aus
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/uebt_Bewegungen_schnellroutiniert_aus
         /// </summary>
         public readonly xAPI_Activity uebt_Bewegungen_schnellroutiniert_aus = new xAPI_Activity(
             context: "observation",

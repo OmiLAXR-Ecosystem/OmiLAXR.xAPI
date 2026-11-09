@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A unique identifier for the device used, such as a serial number or MAC address.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/deviceId
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/deviceId
         /// </summary>
         public xAPI_Extensions_Result_Generic deviceId(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The name of the device that is used, such as 'Oculus Quest 2' or 'iPad Pro'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/deviceName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/deviceName
         /// </summary>
         public xAPI_Extensions_Result_Generic deviceName(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Representation of a object directly after the statement occurred. 'End Value' should be used with the 'Start Value' extension to provide information about the actual change of the object. Can be used with 'edited' or 'changed' verbs.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/endValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/endValue
         /// </summary>
         public xAPI_Extensions_Result_Generic endValue(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A number to index something. Can only be an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/index
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/index
         /// </summary>
         public xAPI_Extensions_Result_Generic index(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Representation of a object directly before the statement occurred. 'Start Value' should be used with the 'End Value' extension to provide information about the actual change of the object. Can be used with 'edited' or 'changed' verbs.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/startValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/startValue
         /// </summary>
         public xAPI_Extensions_Result_Generic startValue(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A time span depending on context.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/timeSpan
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/timeSpan
         /// </summary>
         public xAPI_Extensions_Result_Generic timeSpan(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The value of an element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/result/value
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/result/value
         /// </summary>
         public xAPI_Extensions_Result_Generic value(object value) {
             Add(new xAPI_Extension(

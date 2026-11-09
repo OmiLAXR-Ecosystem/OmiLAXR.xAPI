@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of the currently loaded JupyterLab profile (within a JupyterHub).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/context/profilename
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/context/profilename
         /// </summary>
         public xAPI_Extensions_Context_ProjectJupyter profilename(object value) {
             Add(new xAPI_Extension(

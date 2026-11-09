@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_RightsEngine : xAPI_Activities {
         /// <summary>
         /// A JSON-based representation of a user's consent for the collection of single data logs and analyses. Always linked to exactly one schema.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/consent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/consent
         /// </summary>
         public readonly xAPI_Activity consent = new xAPI_Activity(
             context: "rightsEngine",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A cross provider schema defines the intended, combined data collection and analyses across multiple (at least two) single providers.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/crossProviderSchema
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/crossProviderSchema
         /// </summary>
         public readonly xAPI_Activity crossProviderSchema = new xAPI_Activity(
             context: "rightsEngine",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A version of a cross provider schema defines the intended, combined data collection and analyses across multiple (at least two) single providers. Different versions of a cross-provider schema can differ in terms of the providers, provider contexts, verbs, objects, analyses or translations and descriptions they contain.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/crossProviderSchemaVersion
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/crossProviderSchemaVersion
         /// </summary>
         public readonly xAPI_Activity crossProviderSchemaVersion = new xAPI_Activity(
             context: "rightsEngine",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A provider collecting data as xAPI statements and sending these statements to a Rights Engine. A provider may have multiple associated contexts and schema versions.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/provider
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/provider
         /// </summary>
         public readonly xAPI_Activity provider = new xAPI_Activity(
             context: "rightsEngine",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A context of a provider. This can be a course, a profile, a subpage, etc.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/providerContext
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/providerContext
         /// </summary>
         public readonly xAPI_Activity providerContext = new xAPI_Activity(
             context: "rightsEngine",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A Rights Engine managing consent to provider schemas and providing functionalities for data disclosure and data removal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/rightsEngine
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/rightsEngine
         /// </summary>
         public readonly xAPI_Activity rightsEngine = new xAPI_Activity(
             context: "rightsEngine",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A version of a single provider schema defines the intended data collection and analyses for a single provider, a single platform. Different versions of a schema for the same provider can differ in terms of the verbs, objects, analyses or translations and descriptions they contain.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/rightsEngine/activities/singleProviderSchemaVersion
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/rightsEngine/activities/singleProviderSchemaVersion
         /// </summary>
         public readonly xAPI_Activity singleProviderSchemaVersion = new xAPI_Activity(
             context: "rightsEngine",

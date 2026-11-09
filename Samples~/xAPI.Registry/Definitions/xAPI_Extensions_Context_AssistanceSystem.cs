@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The identifier of an object, behavior, or person.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/context/identifier
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/context/identifier
         /// </summary>
         public xAPI_Extensions_Context_AssistanceSystem identifier(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The type of an object, behavior, or person.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/extensions/context/type
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/extensions/context/type
         /// </summary>
         public xAPI_Extensions_Context_AssistanceSystem type(object value) {
             Add(new xAPI_Extension(

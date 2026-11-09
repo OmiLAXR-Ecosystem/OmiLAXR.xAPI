@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The content of a comment (text, link, picture, etc.).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commentContent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/commentContent
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis commentContent(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The link to the comment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commentUrl
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/commentUrl
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis commentUrl(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The names of the files, which were added in a commit.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commitAddedFiles
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/commitAddedFiles
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis commitAddedFiles(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The names of the files, which were modified in a commit.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commitModifiedFiles
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/commitModifiedFiles
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis commitModifiedFiles(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The names of the files, which were removed in a commit.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/commitRemovedFiles
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/commitRemovedFiles
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis commitRemovedFiles(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of changes made when an issue was updated. Contains old and new value for each change.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/issueChanges
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/issueChanges
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis issueChanges(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A label that can be given to issues and merge requests.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/label
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/label
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis label(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The status of a merge (unapproved/approved/ready to merge).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/mergeStatus
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/mergeStatus
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis mergeStatus(object value) {
             Add(new xAPI_Extension(
@@ -164,7 +164,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A description of the tag.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/tagDescription
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/tagDescription
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis tagDescription(object value) {
             Add(new xAPI_Extension(
@@ -183,7 +183,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The name of the tag.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/result/tagName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/result/tagName
         /// </summary>
         public xAPI_Extensions_Result_Gitanalysis tagName(object value) {
             Add(new xAPI_Extension(

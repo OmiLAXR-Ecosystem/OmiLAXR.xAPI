@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Observation_Mainscores : xAPI_Activities {
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Achtsamkeit zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/achtsamkeit
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/achtsamkeit
         /// </summary>
         public readonly xAPI_Activity achtsamkeit = new xAPI_Activity(
             context: "observation",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Geduld zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/geduld
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/geduld
         /// </summary>
         public readonly xAPI_Activity geduld = new xAPI_Activity(
             context: "observation",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Kommunikationsfähigkeiten zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kommunikationsfaehigkeiten
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kommunikationsfaehigkeiten
         /// </summary>
         public readonly xAPI_Activity kommunikationsfaehigkeiten = new xAPI_Activity(
             context: "observation",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Kreativität zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/kreativitaet
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/kreativitaet
         /// </summary>
         public readonly xAPI_Activity kreativitaet = new xAPI_Activity(
             context: "observation",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Methodisches Potenzial zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/methodisches_Potenzial
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/methodisches_Potenzial
         /// </summary>
         public readonly xAPI_Activity methodisches_Potenzial = new xAPI_Activity(
             context: "observation",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Motivation und Leistungsbereitschaft zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/motivation_und_Leistungsbereitschaft
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/motivation_und_Leistungsbereitschaft
         /// </summary>
         public readonly xAPI_Activity motivation_und_Leistungsbereitschaft = new xAPI_Activity(
             context: "observation",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Praktisches Potenzial zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/praktisches_Potenzial
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/praktisches_Potenzial
         /// </summary>
         public readonly xAPI_Activity praktisches_Potenzial = new xAPI_Activity(
             context: "observation",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Problemlösent zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/problemloesen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/problemloesen
         /// </summary>
         public readonly xAPI_Activity problemloesen = new xAPI_Activity(
             context: "observation",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Räumliches Vorstellungsvermögen zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/raeumliches_Vorstellungsvermoegen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/raeumliches_Vorstellungsvermoegen
         /// </summary>
         public readonly xAPI_Activity raeumliches_Vorstellungsvermoegen = new xAPI_Activity(
             context: "observation",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Soziale Potenziale zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/soziale_Potenziale
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/soziale_Potenziale
         /// </summary>
         public readonly xAPI_Activity soziale_Potenziale = new xAPI_Activity(
             context: "observation",
@@ -127,7 +127,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Mainscore (5/5) wenn ein Akteuer Sprachkompetenz zeigt
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sprachkompetenz
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/sprachkompetenz
         /// </summary>
         public readonly xAPI_Activity sprachkompetenz = new xAPI_Activity(
             context: "observation",

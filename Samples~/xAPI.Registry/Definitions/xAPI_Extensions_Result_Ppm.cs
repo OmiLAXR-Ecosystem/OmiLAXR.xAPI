@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Heart rate is the number of times the heart beats per minute, indicating the frequency of heart contractions. The value is an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result/heartRate
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ppm/extensions/result/heartRate
         /// </summary>
         public xAPI_Extensions_Result_Ppm heartRate(object value) {
             Add(new xAPI_Extension(

@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_UhfReader : xAPI_Verbs {
         /// <summary>
         /// An actor clicked on something on the UHF Reader software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "uhfReader",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor connected an device (e.g. transponder) to the physical reader.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/connected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/connected
         /// </summary>
         public readonly xAPI_Verb connected = new xAPI_Verb(
             context: "uhfReader",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A user evaluates a target (e.g. transponder).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/evaluate
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/evaluate
         /// </summary>
         public readonly xAPI_Verb evaluate = new xAPI_Verb(
             context: "uhfReader",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor selects an activity mode or experiment mode from menu.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/selected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/selected
         /// </summary>
         public readonly xAPI_Verb selected = new xAPI_Verb(
             context: "uhfReader",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor started an activity or process.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "uhfReader",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor copied the TID from the screen. Then the actor can paste it in google to research on the transponder.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/verbs/tidCopied
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/verbs/tidCopied
         /// </summary>
         public readonly xAPI_Verb tidCopied = new xAPI_Verb(
             context: "uhfReader",

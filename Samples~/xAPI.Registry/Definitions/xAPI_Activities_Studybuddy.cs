@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Studybuddy : xAPI_Activities {
         /// <summary>
         /// Interactions of a user within an LMS client (like a browser tab), e.g., key strokes, mouse movements or clicks, touches.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/clientSideInteraction
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/clientSideInteraction
         /// </summary>
         public readonly xAPI_Activity clientSideInteraction = new xAPI_Activity(
             context: "studybuddy",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A simple HTML link, leading to another website or resource.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/link
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/link
         /// </summary>
         public readonly xAPI_Activity link = new xAPI_Activity(
             context: "studybuddy",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Basis data about a study plan, including the start term, a custom name, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/planBasisData
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/planBasisData
         /// </summary>
         public readonly xAPI_Activity planBasisData = new xAPI_Activity(
             context: "studybuddy",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The entry data of a study plan, including module positions, placeholder replacements, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/planEntryData
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/planEntryData
         /// </summary>
         public readonly xAPI_Activity planEntryData = new xAPI_Activity(
             context: "studybuddy",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The automated generation of a study plan.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/planGeneration
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/planGeneration
         /// </summary>
         public readonly xAPI_Activity planGeneration = new xAPI_Activity(
             context: "studybuddy",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The interactive study planning tool.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/studybuddy
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/studybuddy
         /// </summary>
         public readonly xAPI_Activity studybuddy = new xAPI_Activity(
             context: "studybuddy",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor's study plan.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/activities/studyplan
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/activities/studyplan
         /// </summary>
         public readonly xAPI_Activity studyplan = new xAPI_Activity(
             context: "studybuddy",

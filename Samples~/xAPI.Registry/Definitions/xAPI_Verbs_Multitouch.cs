@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Multitouch : xAPI_Verbs {
         /// <summary>
         /// An actor clicked on something on the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "multitouch",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor clicked two times at the same spot in a short time period. Can also bve done with a finger or tangible.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/doubleclicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/doubleclicked
         /// </summary>
         public readonly xAPI_Verb doubleclicked = new xAPI_Verb(
             context: "multitouch",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor dragged a draggable object across the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/dragged
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/dragged
         /// </summary>
         public readonly xAPI_Verb dragged = new xAPI_Verb(
             context: "multitouch",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor dragged a draggable across the screen and let it go of further without guidence.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/flicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/flicked
         /// </summary>
         public readonly xAPI_Verb flicked = new xAPI_Verb(
             context: "multitouch",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor interacted with the game or an game object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/interacted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/interacted
         /// </summary>
         public readonly xAPI_Verb interacted = new xAPI_Verb(
             context: "multitouch",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor held down the mousebutton, a finger or a tangible at one spot. How much time has to pass until a press becomes a longpress is up to the user.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/longpressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/longpressed
         /// </summary>
         public readonly xAPI_Verb longpressed = new xAPI_Verb(
             context: "multitouch",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor mirrored some game object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/mirrored
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/mirrored
         /// </summary>
         public readonly xAPI_Verb mirrored = new xAPI_Verb(
             context: "multitouch",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor activated a button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/pressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/pressed
         /// </summary>
         public readonly xAPI_Verb pressed = new xAPI_Verb(
             context: "multitouch",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor rotated a game object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/rotated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/rotated
         /// </summary>
         public readonly xAPI_Verb rotated = new xAPI_Verb(
             context: "multitouch",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor touched the screen or something on the screen with a finger or tangible.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/touched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/touched
         /// </summary>
         public readonly xAPI_Verb touched = new xAPI_Verb(
             context: "multitouch",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed into some visual part of the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/zoomedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/zoomedIn
         /// </summary>
         public readonly xAPI_Verb zoomedIn = new xAPI_Verb(
             context: "multitouch",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed out of some visual part of the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/multitouch/verbs/zoomedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/multitouch/verbs/zoomedOut
         /// </summary>
         public readonly xAPI_Verb zoomedOut = new xAPI_Verb(
             context: "multitouch",

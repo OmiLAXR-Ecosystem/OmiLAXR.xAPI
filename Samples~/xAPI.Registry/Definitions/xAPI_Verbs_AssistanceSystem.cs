@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_AssistanceSystem : xAPI_Verbs {
         /// <summary>
         /// Indicates that the actor did not need something. For instance, a person did not need help.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/verbs/notNeeded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/verbs/notNeeded
         /// </summary>
         public readonly xAPI_Verb notNeeded = new xAPI_Verb(
             context: "assistanceSystem",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Indicates that the actor was given something. For instance, a person can be given a letter
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/verbs/wasGiven
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/verbs/wasGiven
         /// </summary>
         public readonly xAPI_Verb wasGiven = new xAPI_Verb(
             context: "assistanceSystem",

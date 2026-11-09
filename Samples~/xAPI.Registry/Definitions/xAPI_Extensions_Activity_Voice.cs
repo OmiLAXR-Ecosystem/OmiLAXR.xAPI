@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// It is the name of an action, which could be triggert, e.g. by using a verbal keyword.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/extensions/activity/actionName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/extensions/activity/actionName
         /// </summary>
         public xAPI_Extensions_Activity_Voice actionName(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Speaking time of a person. Time span in which the actor spoke (in seconds).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/extensions/activity/duration
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/extensions/activity/duration
         /// </summary>
         public xAPI_Extensions_Activity_Voice duration(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of a VR object. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/extensions/activity/vrObjectName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/extensions/activity/vrObjectName
         /// </summary>
         public xAPI_Extensions_Activity_Voice vrObjectName(object value) {
             Add(new xAPI_Extension(

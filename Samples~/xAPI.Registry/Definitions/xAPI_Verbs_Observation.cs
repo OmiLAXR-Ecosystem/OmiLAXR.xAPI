@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Observation : xAPI_Verbs {
         /// <summary>
         /// Ein Akteur beschäftigt sich mit etwas
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/beschaeftigt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/beschaeftigt
         /// </summary>
         public readonly xAPI_Verb beschaeftigt = new xAPI_Verb(
             context: "observation",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur erklärt jemand anderen etwas verbal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/erklaert
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/erklaert
         /// </summary>
         public readonly xAPI_Verb erklaert = new xAPI_Verb(
             context: "observation",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur erzählt etwas verbal
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/erzaehlt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/erzaehlt
         /// </summary>
         public readonly xAPI_Verb erzaehlt = new xAPI_Verb(
             context: "observation",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur fragt etwas
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/fragt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/fragt
         /// </summary>
         public readonly xAPI_Verb fragt = new xAPI_Verb(
             context: "observation",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur gibt etwas
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/gibt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/gibt
         /// </summary>
         public readonly xAPI_Verb gibt = new xAPI_Verb(
             context: "observation",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur motiviert jemanden
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/motiviert
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/motiviert
         /// </summary>
         public readonly xAPI_Verb motiviert = new xAPI_Verb(
             context: "observation",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur nimmt etwas
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/nimmt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/nimmt
         /// </summary>
         public readonly xAPI_Verb nimmt = new xAPI_Verb(
             context: "observation",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur sieht etwas
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/sieht
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/sieht
         /// </summary>
         public readonly xAPI_Verb sieht = new xAPI_Verb(
             context: "observation",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Ein Akteur unterbricht jemand oder etwas anderen verbal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/verbs/unterbricht
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/verbs/unterbricht
         /// </summary>
         public readonly xAPI_Verb unterbricht = new xAPI_Verb(
             context: "observation",

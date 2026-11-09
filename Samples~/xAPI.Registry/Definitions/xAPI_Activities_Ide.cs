@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Ide : xAPI_Activities {
         /// <summary>
         /// An application is a specialized software program designed for a specific purpose.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/application
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/application
         /// </summary>
         public readonly xAPI_Activity application = new xAPI_Activity(
             context: "ide",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Libraries, templates, configuration or multimedia files such as source code, images, videos.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/asset
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/asset
         /// </summary>
         public readonly xAPI_Activity asset = new xAPI_Activity(
             context: "ide",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A component is a container with functionality for the IDE or application.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/component
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/component
         /// </summary>
         public readonly xAPI_Activity component = new xAPI_Activity(
             context: "ide",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Something an actor can press, which then triggers an action in the IDE.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/control
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/control
         /// </summary>
         public readonly xAPI_Activity control = new xAPI_Activity(
             context: "ide",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An object of the IDE, which is not a component or asset, but has no other concrete purpose.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/ideObject
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/ideObject
         /// </summary>
         public readonly xAPI_Activity ideObject = new xAPI_Activity(
             context: "ide",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A project is a temporary endeavor designed to achieve a specific goal or set of objectives.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/project
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/project
         /// </summary>
         public readonly xAPI_Activity project = new xAPI_Activity(
             context: "ide",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A window of an IDE is an area with controls which can be either docked or in front of the IDE.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/activities/window
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/activities/window
         /// </summary>
         public readonly xAPI_Activity window = new xAPI_Activity(
             context: "ide",

@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of 'uhfReader': 4 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_UhfReader context {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of 'uhfReader': 4 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_UhfReader result {
             get {

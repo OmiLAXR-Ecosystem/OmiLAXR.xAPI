@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_AssistanceSystem : xAPI_Activities {
         /// <summary>
         /// A hint, for example, giving information about a forgotten functionality.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/assistanceSystem/activities/hint
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/assistanceSystem/activities/hint
         /// </summary>
         public readonly xAPI_Activity hint = new xAPI_Activity(
             context: "assistanceSystem",

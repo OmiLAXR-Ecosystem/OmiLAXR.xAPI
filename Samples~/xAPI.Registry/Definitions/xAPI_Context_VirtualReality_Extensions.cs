@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 12 extensions of 'virtualReality': 8 in activity, 4 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_VirtualReality activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 12 extensions of 'virtualReality': 8 in activity, 4 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_VirtualReality result {
             get {

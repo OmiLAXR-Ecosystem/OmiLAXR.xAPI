@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// State of the transpnder to the physical reader.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/extensions/result/transponderState
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/extensions/result/transponderState
         /// </summary>
         public xAPI_Extensions_Result_UhfReader transponderState(object value) {
             Add(new xAPI_Extension(

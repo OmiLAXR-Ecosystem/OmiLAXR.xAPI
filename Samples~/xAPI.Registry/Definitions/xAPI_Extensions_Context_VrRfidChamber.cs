@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// In this case the energy of RFID tag is measured.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/energymeasure
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/context/energymeasure
         /// </summary>
         public xAPI_Extensions_Context_VrRfidChamber energymeasure(object value) {
             Add(new xAPI_Extension(
@@ -29,7 +29,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The experimentmode in which the experiment is carried. Can be energy measurement or reading range measurement
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/experimentmode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/context/experimentmode
         /// </summary>
         public xAPI_Extensions_Context_VrRfidChamber experimentmode(object value) {
             Add(new xAPI_Extension(
@@ -46,7 +46,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// In this case the best possible orientation of the RFID tag is measured.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/orientationmeasure
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/context/orientationmeasure
         /// </summary>
         public xAPI_Extensions_Context_VrRfidChamber orientationmeasure(object value) {
             Add(new xAPI_Extension(
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// In this case the reading range of transponder is measured.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/readingrangemeasure
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/context/readingrangemeasure
         /// </summary>
         public xAPI_Extensions_Context_VrRfidChamber readingrangemeasure(object value) {
             Add(new xAPI_Extension(
@@ -80,7 +80,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A session is one execution of the lab from entering the lab to exiting it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/vrRfidChamber/extensions/context/session
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/vrRfidChamber/extensions/context/session
         /// </summary>
         public xAPI_Extensions_Context_VrRfidChamber session(object value) {
             Add(new xAPI_Extension(

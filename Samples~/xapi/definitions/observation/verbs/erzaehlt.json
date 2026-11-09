@@ -7,10 +7,10 @@
     },
     "choices": [
         {
-            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine Idee"],
+            "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/seine Idee"],
             "rules" : [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/entwickelt eigene Ideen"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/entwickelt eigene Ideen"],
                     "result":{
                         "score":{
                           "raw": 5,
@@ -20,7 +20,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/setzt geeignete Mittel ein/führt geeignete Handlungen aus, um das Ziel zu erreichen"],
                     "result":{
                         "score":{
                           "raw": 5,
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/vertritt eigene Meinungen und zeigt sich dabei kompromissbereit"],
                     "result":{
                         "score":{
                           "raw": 5,

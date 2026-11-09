@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Tagformance : xAPI_Activities {
         /// <summary>
         /// A button the actor can interact with.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/button
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/button
         /// </summary>
         public readonly xAPI_Activity button = new xAPI_Activity(
             context: "tagformance",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A box which can be checked to select an already generated graph. Then it can be deleted using the cross button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/checkbox
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/checkbox
         /// </summary>
         public readonly xAPI_Activity checkbox = new xAPI_Activity(
             context: "tagformance",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor selects an option through a dropdown menu.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/dropdown
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/dropdown
         /// </summary>
         public readonly xAPI_Activity dropdown = new xAPI_Activity(
             context: "tagformance",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A scientific procedure, especially in a laboratory, to determine something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/experiment
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/experiment
         /// </summary>
         public readonly xAPI_Activity experiment = new xAPI_Activity(
             context: "tagformance",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A graph that is generated after clicking on Start Sweep button. This can be interactible.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/graph
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/graph
         /// </summary>
         public readonly xAPI_Activity graph = new xAPI_Activity(
             context: "tagformance",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A keyboard used to input text or interact with the lab and enter values as per the actor's wish.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/keyboard
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/keyboard
         /// </summary>
         public readonly xAPI_Activity keyboard = new xAPI_Activity(
             context: "tagformance",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A mouse used to click on buttons or drag items in the lab.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/mouse
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/mouse
         /// </summary>
         public readonly xAPI_Activity mouse = new xAPI_Activity(
             context: "tagformance",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A textbox, where the actor can fill text.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/activities/textBox
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/activities/textBox
         /// </summary>
         public readonly xAPI_Activity textBox = new xAPI_Activity(
             context: "tagformance",

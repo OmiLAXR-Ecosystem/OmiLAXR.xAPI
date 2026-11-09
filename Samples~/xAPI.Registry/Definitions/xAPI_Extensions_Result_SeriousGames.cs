@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The result of a change of the gamemode. Can be a string or integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/gamemode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/gamemode
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames gamemode(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The current health of a player character. Has to be an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/health
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/health
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames health(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The result of a level change. Has to be a string or integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/level
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/level
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames level(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of instances in which the player marked an incorrect solution as correct.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberCommissionErrors
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberCommissionErrors
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberCommissionErrors(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number attempts that have been completed, either by winning or loosing.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberCompleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberCompleted
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberCompleted(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of Errors that have been made in a gamemode or level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberErrors
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberErrors
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberErrors(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of instances in which the player failed to mark a correct solution as correct.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberOmissionErrors
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberOmissionErrors
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberOmissionErrors(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of levels that have been started in a gamemode.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberStarted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberStarted
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberStarted(object value) {
             Add(new xAPI_Extension(
@@ -164,7 +164,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of instances in which the user was able to complete a level successfully.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/numberSucceeded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/numberSucceeded
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames numberSucceeded(object value) {
             Add(new xAPI_Extension(
@@ -183,7 +183,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The position of an object in the game. Can be in X, Y and Z coordinates.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/position
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/position
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames position(object value) {
             Add(new xAPI_Extension(
@@ -202,7 +202,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The progess a player or group achieved in the game or level. 1.0 Progress would mean the game or level was completed in every aspect. Has to be a double between 0 and 1.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/progress
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/progress
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames progress(object value) {
             Add(new xAPI_Extension(
@@ -221,7 +221,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Some relevant score which is tracked by the game. Can be an integer or double.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/score
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/score
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames score(object value) {
             Add(new xAPI_Extension(
@@ -240,7 +240,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The sum of the playtime that has been spent in a gamemode or level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/result/sumPlaytime
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/result/sumPlaytime
         /// </summary>
         public xAPI_Extensions_Result_SeriousGames sumPlaytime(object value) {
             Add(new xAPI_Extension(

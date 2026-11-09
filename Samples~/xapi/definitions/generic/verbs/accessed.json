@@ -8,7 +8,7 @@
         "de-DE": "Akteur hat (auf) eine Seite, eine Datei, ein Video, ... zugegriffen/angesehen"
     },
     "exactMatch": [   
-        "https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/accessed",
+        "https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/accessed",
         "https://activitystrea.ms/registry/verbs/", 
         "https://registry.tincanapi.com/#uri/verb/81"
     ],

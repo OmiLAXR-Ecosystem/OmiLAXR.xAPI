@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_SystemControl : xAPI_Verbs {
         /// <summary>
         /// An actor ended a session, game or level without completing it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/canceled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/canceled
         /// </summary>
         public readonly xAPI_Verb canceled = new xAPI_Verb(
             context: "systemControl",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor ended a game session. This verb is only used with the gamesession activity for better session tracking.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/ended
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/ended
         /// </summary>
         public readonly xAPI_Verb ended = new xAPI_Verb(
             context: "systemControl",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A player finished an activity in a game session. This could be the game itself, a level or stage for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/finished
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/finished
         /// </summary>
         public readonly xAPI_Verb finished = new xAPI_Verb(
             context: "systemControl",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The user changes a component, so that it's focussed. The user selects the component to receive input from the user by an event such as a mouse button click or keypress.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/focused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/focused
         /// </summary>
         public readonly xAPI_Verb focused = new xAPI_Verb(
             context: "systemControl",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor initialized a game session. This verb is only used with the gamesession activity for better session tracking.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/initialized
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/initialized
         /// </summary>
         public readonly xAPI_Verb initialized = new xAPI_Verb(
             context: "systemControl",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor loaded something in the game (a level or menu for example).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loaded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/loaded
         /// </summary>
         public readonly xAPI_Verb loaded = new xAPI_Verb(
             context: "systemControl",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A player logged into a session.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/loggedIn
         /// </summary>
         public readonly xAPI_Verb loggedIn = new xAPI_Verb(
             context: "systemControl",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A player logged out of a session.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/loggedOut
         /// </summary>
         public readonly xAPI_Verb loggedOut = new xAPI_Verb(
             context: "systemControl",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor paused an activity in a game session.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/paused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/paused
         /// </summary>
         public readonly xAPI_Verb paused = new xAPI_Verb(
             context: "systemControl",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor resumed an activity in a game session.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/resumed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/resumed
         /// </summary>
         public readonly xAPI_Verb resumed = new xAPI_Verb(
             context: "systemControl",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A player started an activity in a game session. This could be the game itself, a level or a stage for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "systemControl",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The user changes a component, so that it's unfocused. The user selects another component to receive input from the user by an event such as a mouse button click or keypress.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/unfocused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/unfocused
         /// </summary>
         public readonly xAPI_Verb unfocused = new xAPI_Verb(
             context: "systemControl",

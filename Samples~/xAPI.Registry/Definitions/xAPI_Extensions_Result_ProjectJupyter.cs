@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A string representing the cell outputs of a JupyterLab cell. Outputs can contain a.o. execution results or display data.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/result/cellOutput
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/result/cellOutput
         /// </summary>
         public xAPI_Extensions_Result_ProjectJupyter cellOutput(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A string describing an error. Used to provide the runtimeerror that might occur during the execution of ta JupyterLab notebook cell.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/result/errorMessage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/result/errorMessage
         /// </summary>
         public xAPI_Extensions_Result_ProjectJupyter errorMessage(object value) {
             Add(new xAPI_Extension(

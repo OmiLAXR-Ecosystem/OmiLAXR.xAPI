@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_EyeTracking : xAPI_Activities {
         /// <summary>
         /// Organ of the visual system. Actors physical (left or right) eye.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/activities/eye
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/activities/eye
         /// </summary>
         public readonly xAPI_Activity eye = new xAPI_Activity(
             context: "eyeTracking",

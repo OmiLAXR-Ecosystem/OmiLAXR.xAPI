@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 3 extensions of 'gestures': 1 in activity, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_Gestures activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 3 extensions of 'gestures': 1 in activity, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_Gestures result {
             get {

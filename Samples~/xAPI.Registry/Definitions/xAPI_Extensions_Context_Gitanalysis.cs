@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The url of the project the activity was received from.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/context/projectUrl
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/context/projectUrl
         /// </summary>
         public xAPI_Extensions_Context_Gitanalysis projectUrl(object value) {
             Add(new xAPI_Extension(

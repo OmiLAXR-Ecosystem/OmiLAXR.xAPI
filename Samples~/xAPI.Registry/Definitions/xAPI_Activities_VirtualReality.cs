@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_VirtualReality : xAPI_Activities {
         /// <summary>
         /// An action the actor can trigger.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/action
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/action
         /// </summary>
         public readonly xAPI_Activity action = new xAPI_Activity(
             context: "virtualReality",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A controller button or gamepad button the actor can use. On–off controls that switch between different system states.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/controllerButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/controllerButton
         /// </summary>
         public readonly xAPI_Activity controllerButton = new xAPI_Activity(
             context: "virtualReality",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An object which can be pointed and highlighted with for example a laser starting from the controller.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/pointable
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/pointable
         /// </summary>
         public readonly xAPI_Activity pointable = new xAPI_Activity(
             context: "virtualReality",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A highlighted area, which is a teleportation destination. So the actor or something could be teleported to the specific location.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/teleportArea
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/teleportArea
         /// </summary>
         public readonly xAPI_Activity teleportArea = new xAPI_Activity(
             context: "virtualReality",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A fixed teleport point in VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/teleportPoint
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/teleportPoint
         /// </summary>
         public readonly xAPI_Activity teleportPoint = new xAPI_Activity(
             context: "virtualReality",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A VR controller touchpad the actor can use, appearance and possibilities depend on the specific conroller type.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/touchpad
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/touchpad
         /// </summary>
         public readonly xAPI_Activity touchpad = new xAPI_Activity(
             context: "virtualReality",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An UI element in VR the user can interact with (e.g. Panel, Button, Slider).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/uiElement
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/uiElement
         /// </summary>
         public readonly xAPI_Activity uiElement = new xAPI_Activity(
             context: "virtualReality",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A virtual object in a VR environment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/virtualReality/activities/vrObject
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/virtualReality/activities/vrObject
         /// </summary>
         public readonly xAPI_Activity vrObject = new xAPI_Activity(
             context: "virtualReality",

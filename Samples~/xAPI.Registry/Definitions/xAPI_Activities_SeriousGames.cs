@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_SeriousGames : xAPI_Activities {
         /// <summary>
         /// Additional explanation or information that serves the understanding of the game content.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/explanation
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/explanation
         /// </summary>
         public readonly xAPI_Activity explanation = new xAPI_Activity(
             context: "seriousGames",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents a game or competition of any kind.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/game
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/game
         /// </summary>
         public readonly xAPI_Activity game = new xAPI_Activity(
             context: "seriousGames",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The gamemode in which a game is played (e.g. competitive or cooperative).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/gamemode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/gamemode
         /// </summary>
         public readonly xAPI_Activity gamemode = new xAPI_Activity(
             context: "seriousGames",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A level is some, in itself closed, part of the game which the game itself calls level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/level
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/level
         /// </summary>
         public readonly xAPI_Activity level = new xAPI_Activity(
             context: "seriousGames",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor which plays the game and interacts with it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/player
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/player
         /// </summary>
         public readonly xAPI_Activity player = new xAPI_Activity(
             context: "seriousGames",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A representation of something, e.g. the player ingame. Could also be an object the player can interact with.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/playstone
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/playstone
         /// </summary>
         public readonly xAPI_Activity playstone = new xAPI_Activity(
             context: "seriousGames",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A session is one execution of a game from booting the game to exiting it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/session
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/session
         /// </summary>
         public readonly xAPI_Activity session = new xAPI_Activity(
             context: "seriousGames",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A stage is a part of a level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/activities/stage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/activities/stage
         /// </summary>
         public readonly xAPI_Activity stage = new xAPI_Activity(
             context: "seriousGames",

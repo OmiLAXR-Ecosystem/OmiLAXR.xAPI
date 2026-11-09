@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The type of interactive hotspot within a 360° tour.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity/hotspotType
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/activity/hotspotType
         /// </summary>
         public xAPI_Extensions_Activity_360tours hotspotType(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of interactive hotspots within a 360° mediapage.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity/numberOfHotspots
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/activity/numberOfHotspots
         /// </summary>
         public xAPI_Extensions_Activity_360tours numberOfHotspots(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The total number of media pages associated with a 360° tour.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/extensions/activity/numberOfMediapages
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/extensions/activity/numberOfMediapages
         /// </summary>
         public xAPI_Extensions_Activity_360tours numberOfMediapages(object value) {
             Add(new xAPI_Extension(

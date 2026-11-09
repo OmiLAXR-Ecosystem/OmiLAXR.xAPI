@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The content of an Activity. In case of a file, it is the file content, in case of a Notebook cell the content is the code/text inside a notebook cell.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/activity/content
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/activity/content
         /// </summary>
         public xAPI_Extensions_Activity_ProjectJupyter content(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The name of a Jupyter Kernels. E.g. 'Python 3.7'. A list of kernels is available at https://github.com/jupyter/jupyter/wiki/Jupyter-kernels.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/activity/kernelName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/activity/kernelName
         /// </summary>
         public xAPI_Extensions_Activity_ProjectJupyter kernelName(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of words used to describe or groupe activities.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/activity/tags
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/activity/tags
         /// </summary>
         public xAPI_Extensions_Activity_ProjectJupyter tags(object value) {
             Add(new xAPI_Extension(

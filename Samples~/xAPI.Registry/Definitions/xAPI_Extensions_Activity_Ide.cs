@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Content of a target activity. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/content
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/content
         /// </summary>
         public xAPI_Extensions_Activity_Ide content(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// True, if the target window is docked.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/docked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/docked
         /// </summary>
         public xAPI_Extensions_Activity_Ide docked(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// File size in bytes of a Library, template, configuration or multimedia file.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/fileBytes
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/fileBytes
         /// </summary>
         public xAPI_Extensions_Activity_Ide fileBytes(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// ID of activity target. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/id
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/id
         /// </summary>
         public xAPI_Extensions_Activity_Ide id(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// True, if the target window is maximized.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/maximized
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/maximized
         /// </summary>
         public xAPI_Extensions_Activity_Ide maximized(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Parent of activity target. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/parent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/parent
         /// </summary>
         public xAPI_Extensions_Activity_Ide parent(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Path of activity target. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/path
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/path
         /// </summary>
         public xAPI_Extensions_Activity_Ide path(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Position of activity target. Must be a string with coordinates of '(x,y)'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/position
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/position
         /// </summary>
         public xAPI_Extensions_Activity_Ide position(object value) {
             Add(new xAPI_Extension(
@@ -164,7 +164,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Rectangle of activity target. Must be a string with coordinates of '(x,y,width,height)'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/rect
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/rect
         /// </summary>
         public xAPI_Extensions_Activity_Ide rect(object value) {
             Add(new xAPI_Extension(
@@ -183,7 +183,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Size of activity target (e.g. window size). Must be a string with coordinates of '(width,height)'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/size
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/size
         /// </summary>
         public xAPI_Extensions_Activity_Ide size(object value) {
             Add(new xAPI_Extension(
@@ -202,7 +202,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Representing the state of the target activity like 'loading', 'starting', ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/status
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/status
         /// </summary>
         public xAPI_Extensions_Activity_Ide status(object value) {
             Add(new xAPI_Extension(
@@ -221,7 +221,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Type of a target activity. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/activity/type
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/activity/type
         /// </summary>
         public xAPI_Extensions_Activity_Ide type(object value) {
             Add(new xAPI_Extension(

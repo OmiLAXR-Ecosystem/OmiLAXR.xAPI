@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_ProjectJupyter : xAPI_Activities {
         /// <summary>
         /// A Jupyter Notebook Cell of type 'code cell'. Code Cells store programming code, that can be executed by a user. Code within a Code Cell is typically conceptually coherent.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/codeCell
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/activities/codeCell
         /// </summary>
         public readonly xAPI_Activity codeCell = new xAPI_Activity(
             context: "projectJupyter",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A web-based user interface for Project Jupyter. See https://jupyterlab.readthedocs.io
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/jupyterLab
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/activities/jupyterLab
         /// </summary>
         public readonly xAPI_Activity jupyterLab = new xAPI_Activity(
             context: "projectJupyter",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// This activity refers to Jupyter Notebook Document (the document type), in contrast to the Jupyter Notebook (a document editor). Notebook documents are json-files ending in '.ipynb'. 
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/jupyterNotebook
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/activities/jupyterNotebook
         /// </summary>
         public readonly xAPI_Activity jupyterNotebook = new xAPI_Activity(
             context: "projectJupyter",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A Jupyter Notebook Cell of type 'markdown cell'. Markdonw Cells store markdown formatted text. The text is meant to be read by a user.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/markdownCell
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/activities/markdownCell
         /// </summary>
         public readonly xAPI_Activity markdownCell = new xAPI_Activity(
             context: "projectJupyter",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A Jupyter Notebook Cell of type 'raw cell'. Raw Cells provide storage options for data other than programming code and markdown text. They can contain any type of data.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/activities/rawCell
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/activities/rawCell
         /// </summary>
         public readonly xAPI_Activity rawCell = new xAPI_Activity(
             context: "projectJupyter",

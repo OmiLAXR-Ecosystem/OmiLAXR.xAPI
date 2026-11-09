@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Tagformance : xAPI_Verbs {
         /// <summary>
         /// An actor changed a value of an ui element.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/changed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/changed
         /// </summary>
         public readonly xAPI_Verb changed = new xAPI_Verb(
             context: "tagformance",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor clicked on something on the screen.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "tagformance",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has written down the his/her thought.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/commented
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/commented
         /// </summary>
         public readonly xAPI_Verb commented = new xAPI_Verb(
             context: "tagformance",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has deleted a digital artefact from the software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/deleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/deleted
         /// </summary>
         public readonly xAPI_Verb deleted = new xAPI_Verb(
             context: "tagformance",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has exported a digital artefact from the software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/exported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/exported
         /// </summary>
         public readonly xAPI_Verb exported = new xAPI_Verb(
             context: "tagformance",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has generated a digital artefact from the software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/generated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/generated
         /// </summary>
         public readonly xAPI_Verb generated = new xAPI_Verb(
             context: "tagformance",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor logged in to the portal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/loggedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/loggedIn
         /// </summary>
         public readonly xAPI_Verb loggedIn = new xAPI_Verb(
             context: "tagformance",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor logged out of the portal.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/loggedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/loggedOut
         /// </summary>
         public readonly xAPI_Verb loggedOut = new xAPI_Verb(
             context: "tagformance",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has saved a digital artefact from the software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/saved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/saved
         /// </summary>
         public readonly xAPI_Verb saved = new xAPI_Verb(
             context: "tagformance",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has started the measurements.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "tagformance",
@@ -127,7 +127,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed into the visual element like the graph generated.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/zoomedIn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/zoomedIn
         /// </summary>
         public readonly xAPI_Verb zoomedIn = new xAPI_Verb(
             context: "tagformance",
@@ -139,7 +139,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor zoomed out of a visual element like the graph generated.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/verbs/zoomedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/verbs/zoomedOut
         /// </summary>
         public readonly xAPI_Verb zoomedOut = new xAPI_Verb(
             context: "tagformance",

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The identifier for the game in which the event happened. Can be a string or integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/game
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/context/game
         /// </summary>
         public xAPI_Extensions_Context_SeriousGames game(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The gamemode in which the game is played. Can be a string or integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/gamemode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/context/gamemode
         /// </summary>
         public xAPI_Extensions_Context_SeriousGames gamemode(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The level in which or for which something happened. Can be an integer or a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/level
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/context/level
         /// </summary>
         public xAPI_Extensions_Context_SeriousGames level(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of players participating at the game. Has to be an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/context/numberOfPlayers
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/context/numberOfPlayers
         /// </summary>
         public xAPI_Extensions_Context_SeriousGames numberOfPlayers(object value) {
             Add(new xAPI_Extension(

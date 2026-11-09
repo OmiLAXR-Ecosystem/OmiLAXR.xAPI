@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The type of button which was pressed. Has to be String.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/seriousGames/extensions/activity/buttontype
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/seriousGames/extensions/activity/buttontype
         /// </summary>
         public xAPI_Extensions_Activity_SeriousGames buttontype(object value) {
             Add(new xAPI_Extension(

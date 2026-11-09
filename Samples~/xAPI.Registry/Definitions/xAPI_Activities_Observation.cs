@@ -7,19 +7,19 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Observation : xAPI_Activities {
         /// <summary>
         /// Provides 11 items xAPI_Activity of the context 'observation' as public properties.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/mainscores
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/mainscores
         /// </summary>
         public readonly xAPI_Activities_Observation_Mainscores mainscores = new xAPI_Activities_Observation_Mainscores();
 
         /// <summary>
         /// Provides 33 items xAPI_Activity of the context 'observation' as public properties.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/subscores
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/subscores
         /// </summary>
         public readonly xAPI_Activities_Observation_Subscores subscores = new xAPI_Activities_Observation_Subscores();
 
         /// <summary>
         /// Verb bezieht sich auf Anweisungen
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/anweisungen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/anweisungen
         /// </summary>
         public readonly xAPI_Activity anweisungen = new xAPI_Activity(
             context: "observation",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Von Beobachtern durchgeführte Aufgabenerklärung
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/erklaerung
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/erklaerung
         /// </summary>
         public readonly xAPI_Activity erklaerung = new xAPI_Activity(
             context: "observation",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Verb bezieht sich auf das Abgeben der Führung
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/fuehrung_ab
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/fuehrung_ab
         /// </summary>
         public readonly xAPI_Activity fuehrung_ab = new xAPI_Activity(
             context: "observation",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Verb bezieht sich auf das Abgeben des Materials
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/material_ab
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/material_ab
         /// </summary>
         public readonly xAPI_Activity material_ab = new xAPI_Activity(
             context: "observation",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Gegnstände die zum Aufgabenlösen zur Verfügung gestellt werden
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/material
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/material
         /// </summary>
         public readonly xAPI_Activity material = new xAPI_Activity(
             context: "observation",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Verb bezieht sich auf andere Mitschüler
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/mitschueler
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/mitschueler
         /// </summary>
         public readonly xAPI_Activity mitschueler = new xAPI_Activity(
             context: "observation",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Konkreter Gegenstand, der zum Aufgabenlösen zur Verfügung gestellt wurde
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/schere
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/schere
         /// </summary>
         public readonly xAPI_Activity schere = new xAPI_Activity(
             context: "observation",
@@ -103,7 +103,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Verb bezieht sich auf andere Akteure
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere
         /// </summary>
         public readonly xAPI_Activity andere = new xAPI_Activity(
             context: "observation",
@@ -115,7 +115,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// aus dem Fenster
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/aus_dem_Fenster
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/aus_dem_Fenster
         /// </summary>
         public readonly xAPI_Activity aus_dem_Fenster = new xAPI_Activity(
             context: "observation",
@@ -127,7 +127,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// mit Betrachtung einiger Details
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/es_sich_genauer_an
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/es_sich_genauer_an
         /// </summary>
         public readonly xAPI_Activity es_sich_genauer_an = new xAPI_Activity(
             context: "observation",
@@ -139,7 +139,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// genaure Informationen über Aufgaben
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/nach_Aufgaben_Details
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/nach_Aufgaben_Details
         /// </summary>
         public readonly xAPI_Activity nach_Aufgaben_Details = new xAPI_Activity(
             context: "observation",
@@ -151,7 +151,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Von Akteur selbst erbrachte Denkleistung
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/seine_Idee
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/seine_Idee
         /// </summary>
         public readonly xAPI_Activity seine_Idee = new xAPI_Activity(
             context: "observation",
@@ -163,7 +163,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Verb bezieht sich auf Objekte, die nichts mit der Aufgabenstellung zutun haben.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/sich_mit_anderen_Dingen
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/sich_mit_anderen_Dingen
         /// </summary>
         public readonly xAPI_Activity sich_mit_anderen_Dingen = new xAPI_Activity(
             context: "observation",

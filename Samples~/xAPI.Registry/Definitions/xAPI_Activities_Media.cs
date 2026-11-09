@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Media : xAPI_Activities {
         /// <summary>
         /// An audio, played by an audio player.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/activities/audio
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/activities/audio
         /// </summary>
         public readonly xAPI_Activity audio = new xAPI_Activity(
             context: "media",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A video, played by a video player.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/media/activities/video
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/media/activities/video
         /// </summary>
         public readonly xAPI_Activity video = new xAPI_Activity(
             context: "media",

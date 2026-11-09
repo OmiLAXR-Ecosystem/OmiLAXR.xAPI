@@ -7,10 +7,10 @@
     },
     "choices": [
         {
-            "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/andere"],
+            "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/andere"],
             "rules" : [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
                     "result":{
                         "score":{
                           "raw": 1,
@@ -20,7 +20,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/lässt andere ausreden"],
                     "result":{
                         "score":{
                           "raw": 1,
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
                     "result":{
                         "score":{
                           "raw": 2,
@@ -42,10 +42,10 @@
             ]
         },
         {
-        "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/Erklärung"],
+        "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/Erklärung"],
             "rules" : [
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/zeigt Interesse, Stolz oder Freude"],
                     "result":{
                         "score":{
                           "raw": 1,
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/lässt andere ausreden"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/lässt andere ausreden"],
                     "result":{
                         "score":{
                           "raw": 1,
@@ -65,7 +65,7 @@
                     }
                 },
                 {
-                    "exactMatch": ["https://xapi.elearn.rwth-aachen.de/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
+                    "exactMatch": ["https://omilaxr-ecosystem.github.io/xapi/definitions/observation/activities/subscore/verhält sich höflich, freundlich und wohlwollend"],
                     "result":{
                         "score":{
                           "raw": 2,

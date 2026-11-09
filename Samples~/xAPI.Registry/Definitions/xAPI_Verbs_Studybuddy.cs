@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Studybuddy : xAPI_Verbs {
         /// <summary>
         /// Actor clicked a link, button, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "studybuddy",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor created an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "studybuddy",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor deleted an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/deleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/deleted
         /// </summary>
         public readonly xAPI_Verb deleted = new xAPI_Verb(
             context: "studybuddy",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor logged in to a system
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/loggedInTo
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/loggedInTo
         /// </summary>
         public readonly xAPI_Verb loggedInTo = new xAPI_Verb(
             context: "studybuddy",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor logged out from a system
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/loggedOutFrom
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/loggedOutFrom
         /// </summary>
         public readonly xAPI_Verb loggedOutFrom = new xAPI_Verb(
             context: "studybuddy",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor paused an activity
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/paused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/paused
         /// </summary>
         public readonly xAPI_Verb paused = new xAPI_Verb(
             context: "studybuddy",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor triggered a process
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/triggered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/triggered
         /// </summary>
         public readonly xAPI_Verb triggered = new xAPI_Verb(
             context: "studybuddy",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor updated an object
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/studybuddy/verbs/updated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/studybuddy/verbs/updated
         /// </summary>
         public readonly xAPI_Verb updated = new xAPI_Verb(
             context: "studybuddy",

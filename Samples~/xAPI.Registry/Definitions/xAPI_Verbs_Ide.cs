@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Ide : xAPI_Verbs {
         /// <summary>
         /// An actor changed something in the IDE (an asset for example).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/changed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/changed
         /// </summary>
         public readonly xAPI_Verb changed = new xAPI_Verb(
             context: "ide",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has clicked a button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "ide",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor closed a application, asset, video, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "ide",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has created a component or asset.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "ide",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has entered a window with the mouse.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/entered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/entered
         /// </summary>
         public readonly xAPI_Verb entered = new xAPI_Verb(
             context: "ide",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has focused a control element or window.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/focused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/focused
         /// </summary>
         public readonly xAPI_Verb focused = new xAPI_Verb(
             context: "ide",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor initialized a game session. This verb is only used with the gamesession activity for better session tracking.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/initialized
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/initialized
         /// </summary>
         public readonly xAPI_Verb initialized = new xAPI_Verb(
             context: "ide",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has left a window with the mouse.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/left
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/left
         /// </summary>
         public readonly xAPI_Verb left = new xAPI_Verb(
             context: "ide",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor loaded something in the IDE (an asset for example).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/loaded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/loaded
         /// </summary>
         public readonly xAPI_Verb loaded = new xAPI_Verb(
             context: "ide",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor accessed/viewed a application, asset, video, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/opened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/opened
         /// </summary>
         public readonly xAPI_Verb opened = new xAPI_Verb(
             context: "ide",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has removed a component or asset.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/removed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/removed
         /// </summary>
         public readonly xAPI_Verb removed = new xAPI_Verb(
             context: "ide",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor saved something in the IDE (an asset for example).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/saved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/saved
         /// </summary>
         public readonly xAPI_Verb saved = new xAPI_Verb(
             context: "ide",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has searched in a search field.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/searched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/searched
         /// </summary>
         public readonly xAPI_Verb searched = new xAPI_Verb(
             context: "ide",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has selected a control element or window.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/selected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/selected
         /// </summary>
         public readonly xAPI_Verb selected = new xAPI_Verb(
             context: "ide",
@@ -203,7 +203,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor started a plugin or application.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/started
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/started
         /// </summary>
         public readonly xAPI_Verb started = new xAPI_Verb(
             context: "ide",
@@ -217,7 +217,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has unfocused a control element or window.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/unfocused
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/unfocused
         /// </summary>
         public readonly xAPI_Verb unfocused = new xAPI_Verb(
             context: "ide",
@@ -231,7 +231,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has unselected a control element or window.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/verbs/unselected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/verbs/unselected
         /// </summary>
         public readonly xAPI_Verb unselected = new xAPI_Verb(
             context: "ide",

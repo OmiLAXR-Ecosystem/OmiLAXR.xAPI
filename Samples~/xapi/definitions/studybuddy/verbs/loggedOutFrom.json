@@ -12,7 +12,7 @@
 		"https://brindlewaye.com/xAPITerms/verbs/loggedout/"
 	],
 	"relatedMatch": [
-		"https://xapi.elearn.rwth-aachen.de/definitions/systemControl/verbs/loggedOut",
-		"https://xapi.elearn.rwth-aachen.de/definitions/lms/verbs/loggedOut"
+		"https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/verbs/loggedOut",
+		"https://omilaxr-ecosystem.github.io/xapi/definitions/lms/verbs/loggedOut"
 	]
 }

@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 2 extensions of 'ppm': 1 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ppm/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_Ppm context {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 2 extensions of 'ppm': 1 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ppm/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_Ppm result {
             get {

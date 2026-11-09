@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_360tours : xAPI_Activities {
         /// <summary>
         /// Interactive area within a 360° mediapage that triggers an action or displays additional information.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/hotspot
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/activities/hotspot
         /// </summary>
         public readonly xAPI_Activity hotspot = new xAPI_Activity(
             context: "360tours",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A page displaying a single 360° image or video, allowing users to explore the content interactively.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/mediapage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/activities/mediapage
         /// </summary>
         public readonly xAPI_Activity mediapage = new xAPI_Activity(
             context: "360tours",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An interactive tour comprised of 360° images and videos. A tour may also include media pages and hotspots.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/tour
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/activities/tour
         /// </summary>
         public readonly xAPI_Activity tour = new xAPI_Activity(
             context: "360tours",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A personal account for accessing a 360° tours platform.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/activities/userAccount
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/activities/userAccount
         /// </summary>
         public readonly xAPI_Activity userAccount = new xAPI_Activity(
             context: "360tours",

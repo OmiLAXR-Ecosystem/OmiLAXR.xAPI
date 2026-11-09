@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_360tours : xAPI_Verbs {
         /// <summary>
         /// An actor exported a 360° tour to an external destination.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/exported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/verbs/exported
         /// </summary>
         public readonly xAPI_Verb exported = new xAPI_Verb(
             context: "360tours",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor set a mediapage as the new entry point.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/homed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/verbs/homed
         /// </summary>
         public readonly xAPI_Verb homed = new xAPI_Verb(
             context: "360tours",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor imported a 360° tour from an external destination.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/imported
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/verbs/imported
         /// </summary>
         public readonly xAPI_Verb imported = new xAPI_Verb(
             context: "360tours",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor changed the name of a 360° tour.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/360tours/verbs/renamed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/360tours/verbs/renamed
         /// </summary>
         public readonly xAPI_Verb renamed = new xAPI_Verb(
             context: "360tours",

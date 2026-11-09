@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The IDE is compiling.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/compiling
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/compiling
         /// </summary>
         public xAPI_Extensions_Context_Ide compiling(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Is true if IDE is in debug mode. Boolean value.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/debugMode
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/debugMode
         /// </summary>
         public xAPI_Extensions_Context_Ide debugMode(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A software tool that helps programmers write and develop code by providing a variety of useful features in one application.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/ide
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/ide
         /// </summary>
         public xAPI_Extensions_Context_Ide ide(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The license of the IDE.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/license
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/license
         /// </summary>
         public xAPI_Extensions_Context_Ide license(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The IDE is pausing.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/pausing
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/pausing
         /// </summary>
         public xAPI_Extensions_Context_Ide pausing(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The IDE is running.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/running
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/running
         /// </summary>
         public xAPI_Extensions_Context_Ide running(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of IDE tools. Must be a string array.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/tools
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/tools
         /// </summary>
         public xAPI_Extensions_Context_Ide tools(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The IDE is updating.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/updating
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/updating
         /// </summary>
         public xAPI_Extensions_Context_Ide updating(object value) {
             Add(new xAPI_Extension(
@@ -164,7 +164,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The version of the IDE. It should follow the semantic versioning principle of 'MAJOR.MINOR.PATCH'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ide/extensions/context/version
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ide/extensions/context/version
         /// </summary>
         public xAPI_Extensions_Context_Ide version(object value) {
             Add(new xAPI_Extension(

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The identifier of a commit, given as a hash. Can be used to find a certain commit in the repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/commitId
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/commitId
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis commitId(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The message describing the commit.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/commitMessage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/commitMessage
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis commitMessage(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of people assigned to the issue.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueAssignees
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/issueAssignees
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis issueAssignees(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A description of the issue.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueDescription
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/issueDescription
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis issueDescription(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The date the issue is or was due.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueDueDate
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/issueDueDate
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis issueDueDate(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The name of the issue.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueName
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/issueName
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis issueName(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The weight of the issue.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/issueWeight
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/issueWeight
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis issueWeight(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of people assigned to a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeAssignees
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/mergeAssignees
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis mergeAssignees(object value) {
             Add(new xAPI_Extension(
@@ -164,7 +164,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A description of a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeDescription
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/mergeDescription
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis mergeDescription(object value) {
             Add(new xAPI_Extension(
@@ -183,7 +183,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of people set to review a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeReviewers
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/mergeReviewers
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis mergeReviewers(object value) {
             Add(new xAPI_Extension(
@@ -202,7 +202,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The title of a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/mergeTitle
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/mergeTitle
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis mergeTitle(object value) {
             Add(new xAPI_Extension(
@@ -221,7 +221,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The reason a CI/CD pipeline was triggered.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/pipelineTrigger
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/pipelineTrigger
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis pipelineTrigger(object value) {
             Add(new xAPI_Extension(
@@ -240,7 +240,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of commits contained in a push.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/pushCommitCount
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/pushCommitCount
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis pushCommitCount(object value) {
             Add(new xAPI_Extension(
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A list of identifiers for the commits, which are part of the push. Each ID points to a different commit, which have their own statements.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/pushContainedCommits
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/pushContainedCommits
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis pushContainedCommits(object value) {
             Add(new xAPI_Extension(
@@ -278,7 +278,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The commit message of the commit, which is responsible for changes on a wiki page (including creation and deletion).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/wikiCommitMessage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/wikiCommitMessage
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis wikiCommitMessage(object value) {
             Add(new xAPI_Extension(
@@ -297,7 +297,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The content of a wiki page.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/wikiContent
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/wikiContent
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis wikiContent(object value) {
             Add(new xAPI_Extension(
@@ -316,7 +316,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The title of a wiki page.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/extensions/activity/wikiTitle
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/extensions/activity/wikiTitle
         /// </summary>
         public xAPI_Extensions_Activity_Gitanalysis wikiTitle(object value) {
             Add(new xAPI_Extension(

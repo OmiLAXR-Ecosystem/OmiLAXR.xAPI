@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_ProjectJupyter : xAPI_Verbs {
         /// <summary>
         /// Indicates, that an actor executed some programming context. Typically a Jupyter Notebook Code Cell.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/verbs/executed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/verbs/executed
         /// </summary>
         public readonly xAPI_Verb executed = new xAPI_Verb(
             context: "projectJupyter",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Indicates, that an actor run some programming context. Typically a Jupyter Notebook Code Cell.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/verbs/run
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/verbs/run
         /// </summary>
         public readonly xAPI_Verb run = new xAPI_Verb(
             context: "projectJupyter",

@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Language of the system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/result/language
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/result/language
         /// </summary>
         public xAPI_Extensions_Result_SystemControl language(object value) {
             Add(new xAPI_Extension(

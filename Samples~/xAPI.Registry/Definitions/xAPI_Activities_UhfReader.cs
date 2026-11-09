@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_UhfReader : xAPI_Activities {
         /// <summary>
         /// A field which can be click to fire an action. For example the 'start button'.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/button
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/button
         /// </summary>
         public readonly xAPI_Activity button = new xAPI_Activity(
             context: "uhfReader",
@@ -19,7 +19,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A box which can be checked or unchecked. For example in this case Read TID should be selected.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/checkbox
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/checkbox
         /// </summary>
         public readonly xAPI_Activity checkbox = new xAPI_Activity(
             context: "uhfReader",
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A progress to identify 
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/identification
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/identification
         /// </summary>
         public readonly xAPI_Activity identification = new xAPI_Activity(
             context: "uhfReader",
@@ -43,7 +43,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A mouse used to click on buttons in the software.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/mouse
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/mouse
         /// </summary>
         public readonly xAPI_Activity mouse = new xAPI_Activity(
             context: "uhfReader",
@@ -55,7 +55,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A image of the reader is generated which is interactible. The reading head is selected in the image.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/readerImage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/readerImage
         /// </summary>
         public readonly xAPI_Activity readerImage = new xAPI_Activity(
             context: "uhfReader",
@@ -67,7 +67,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represent the RFID tag. You can drag it as per your requirements
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/rfidTag
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/rfidTag
         /// </summary>
         public readonly xAPI_Activity rfidTag = new xAPI_Activity(
             context: "uhfReader",
@@ -79,7 +79,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents the transpnder to the physical reader.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/uhfReader/activities/transponder
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/uhfReader/activities/transponder
         /// </summary>
         public readonly xAPI_Activity transponder = new xAPI_Activity(
             context: "uhfReader",

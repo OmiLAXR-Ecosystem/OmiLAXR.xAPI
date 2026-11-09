@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_Gestures : xAPI_Activities {
         /// <summary>
         /// Actors physical (left or right) hand.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/activities/hand
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/activities/hand
         /// </summary>
         public readonly xAPI_Activity hand = new xAPI_Activity(
             context: "gestures",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actors physical head.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/activities/head
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/activities/head
         /// </summary>
         public readonly xAPI_Activity head = new xAPI_Activity(
             context: "gestures",

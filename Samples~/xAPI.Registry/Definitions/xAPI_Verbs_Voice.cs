@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Voice : xAPI_Verbs {
         /// <summary>
         /// An actor asked something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/asked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/asked
         /// </summary>
         public readonly xAPI_Verb asked = new xAPI_Verb(
             context: "voice",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has commanded with his or her voice, which was recorded with speech recognition or annotated by hand.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/commanded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/commanded
         /// </summary>
         public readonly xAPI_Verb commanded = new xAPI_Verb(
             context: "voice",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has interrupted someone/ cut someone off.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/interrupted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/interrupted
         /// </summary>
         public readonly xAPI_Verb interrupted = new xAPI_Verb(
             context: "voice",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has mumbled something, which was not recognizable.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/mumbled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/mumbled
         /// </summary>
         public readonly xAPI_Verb mumbled = new xAPI_Verb(
             context: "voice",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor said something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/voice/verbs/said
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/voice/verbs/said
         /// </summary>
         public readonly xAPI_Verb said = new xAPI_Verb(
             context: "voice",

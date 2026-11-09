@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Gitanalysis : xAPI_Verbs {
         /// <summary>
         /// An actor added a tag.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/added
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/added
         /// </summary>
         public readonly xAPI_Verb added = new xAPI_Verb(
             context: "gitanalysis",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor approved a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/approved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/approved
         /// </summary>
         public readonly xAPI_Verb approved = new xAPI_Verb(
             context: "gitanalysis",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor closed an issue or a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "gitanalysis",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor wrote a comment on a commit/issue/merge request
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/commentedOn
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/commentedOn
         /// </summary>
         public readonly xAPI_Verb commentedOn = new xAPI_Verb(
             context: "gitanalysis",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor created an object (e.g. commits or wiki pages).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "gitanalysis",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor deleted an issue, a tag or a wiki page.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/deleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/deleted
         /// </summary>
         public readonly xAPI_Verb deleted = new xAPI_Verb(
             context: "gitanalysis",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor merged a branch to another branch during a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/merged
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/merged
         /// </summary>
         public readonly xAPI_Verb merged = new xAPI_Verb(
             context: "gitanalysis",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor opened an issue or a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/opened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/opened
         /// </summary>
         public readonly xAPI_Verb opened = new xAPI_Verb(
             context: "gitanalysis",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor pushed a number of changes to the repository.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/pushed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/pushed
         /// </summary>
         public readonly xAPI_Verb pushed = new xAPI_Verb(
             context: "gitanalysis",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor opened an issue or a merge request, which were previously closed.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/reopened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/reopened
         /// </summary>
         public readonly xAPI_Verb reopened = new xAPI_Verb(
             context: "gitanalysis",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor triggered a pipeline with an activity.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/triggered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/triggered
         /// </summary>
         public readonly xAPI_Verb triggered = new xAPI_Verb(
             context: "gitanalysis",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor unapproved a merge request.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/unapproved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/unapproved
         /// </summary>
         public readonly xAPI_Verb unapproved = new xAPI_Verb(
             context: "gitanalysis",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor updated an issue, a merge request or a wiki page.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/updated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/updated
         /// </summary>
         public readonly xAPI_Verb updated = new xAPI_Verb(
             context: "gitanalysis",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor wrote a wiki page.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gitanalysis/verbs/wrote
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gitanalysis/verbs/wrote
         /// </summary>
         public readonly xAPI_Verb wrote = new xAPI_Verb(
             context: "gitanalysis",

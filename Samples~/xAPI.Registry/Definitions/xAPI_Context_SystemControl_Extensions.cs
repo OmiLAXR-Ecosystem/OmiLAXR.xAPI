@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of 'systemControl': 3 in activity, 1 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_SystemControl activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of 'systemControl': 3 in activity, 1 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_SystemControl context {
             get {
@@ -30,7 +30,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 5 extensions of 'systemControl': 3 in activity, 1 in context, 1 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_SystemControl result {
             get {

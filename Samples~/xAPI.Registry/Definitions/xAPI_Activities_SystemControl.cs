@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Activities_SystemControl : xAPI_Activities {
         /// <summary>
         /// Represents a game or competition of any kind.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/game
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/activities/game
         /// </summary>
         public readonly xAPI_Activity game = new xAPI_Activity(
             context: "systemControl",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Represents an instruction provided by the system.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/instruction
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/activities/instruction
         /// </summary>
         public readonly xAPI_Activity instruction = new xAPI_Activity(
             context: "systemControl",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A level is some, in itself closed, part of the game which the game itself calls level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/level
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/activities/level
         /// </summary>
         public readonly xAPI_Activity level = new xAPI_Activity(
             context: "systemControl",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A session is one execution of a game from booting the game to exiting it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/session
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/activities/session
         /// </summary>
         public readonly xAPI_Activity session = new xAPI_Activity(
             context: "systemControl",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A stage is a part of a level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/activities/stage
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/activities/stage
         /// </summary>
         public readonly xAPI_Activity stage = new xAPI_Activity(
             context: "systemControl",

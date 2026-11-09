@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Hand which is currently active.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/gestures/extensions/activity/hand
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/gestures/extensions/activity/hand
         /// </summary>
         public xAPI_Extensions_Activity_Gestures hand(object value) {
             Add(new xAPI_Extension(

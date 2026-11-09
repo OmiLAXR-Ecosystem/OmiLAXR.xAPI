@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The framerate is the amount of frames (images) per seconds, which was generated at captured moment in the recorded period of time.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/systemControl/extensions/context/fps
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/systemControl/extensions/context/fps
         /// </summary>
         public xAPI_Extensions_Context_SystemControl fps(object value) {
             Add(new xAPI_Extension(

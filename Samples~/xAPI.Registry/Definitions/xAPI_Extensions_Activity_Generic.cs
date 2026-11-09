@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The color of an object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/color
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/color
         /// </summary>
         public xAPI_Extensions_Activity_Generic color(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A relative or absolute file path of a file. Can be used to provide the filepath for a file-activity.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/filepath
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/filepath
         /// </summary>
         public xAPI_Extensions_Activity_Generic filepath(object value) {
             Add(new xAPI_Extension(
@@ -50,7 +50,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The button of the keyboard.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/keyboardButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/keyboardButton
         /// </summary>
         public xAPI_Extensions_Activity_Generic keyboardButton(object value) {
             Add(new xAPI_Extension(
@@ -69,7 +69,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The button of a mouse.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/mouseButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/mouseButton
         /// </summary>
         public xAPI_Extensions_Activity_Generic mouseButton(object value) {
             Add(new xAPI_Extension(
@@ -88,7 +88,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The position of the mouse.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/mousePosition
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/mousePosition
         /// </summary>
         public xAPI_Extensions_Activity_Generic mousePosition(object value) {
             Add(new xAPI_Extension(
@@ -107,7 +107,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Name of activity target. Must be a string.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/name
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/name
         /// </summary>
         public xAPI_Extensions_Activity_Generic name(object value) {
             Add(new xAPI_Extension(
@@ -126,7 +126,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An number or other identifier (e.g. 'top', 'bottom') to identify the position of an element inside a colletion such as an list of elements.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/position
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/position
         /// </summary>
         public xAPI_Extensions_Activity_Generic position(object value) {
             Add(new xAPI_Extension(
@@ -145,7 +145,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The scroll value of a trackpad or mouse wheel.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/extensions/activity/scrollValue
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/extensions/activity/scrollValue
         /// </summary>
         public xAPI_Extensions_Activity_Generic scrollValue(object value) {
             Add(new xAPI_Extension(

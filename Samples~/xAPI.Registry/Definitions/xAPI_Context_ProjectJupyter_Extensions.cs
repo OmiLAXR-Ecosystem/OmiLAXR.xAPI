@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 6 extensions of 'projectJupyter': 3 in activity, 1 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_ProjectJupyter activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 6 extensions of 'projectJupyter': 3 in activity, 1 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_ProjectJupyter context {
             get {
@@ -30,7 +30,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 6 extensions of 'projectJupyter': 3 in activity, 1 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/projectJupyter/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/projectJupyter/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_ProjectJupyter result {
             get {

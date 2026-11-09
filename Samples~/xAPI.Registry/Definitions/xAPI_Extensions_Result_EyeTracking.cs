@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The fixation duration is the measure how long the actor spend looking at a particular location.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/duration
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/extensions/result/duration
         /// </summary>
         public xAPI_Extensions_Result_EyeTracking duration(object value) {
             Add(new xAPI_Extension(
@@ -31,7 +31,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// The number of actors eye blinking within a focus sequence. Has to be an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/eyeTracking/extensions/result/numberOfBlinks
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/eyeTracking/extensions/result/numberOfBlinks
         /// </summary>
         public xAPI_Extensions_Result_EyeTracking numberOfBlinks(object value) {
             Add(new xAPI_Extension(

@@ -10,7 +10,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 17 extensions of 'tagformance': 4 in activity, 11 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/activity
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/activity
         /// </summary>
         public xAPI_Extensions_Activity_Tagformance activity {
             get {
@@ -20,7 +20,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 17 extensions of 'tagformance': 4 in activity, 11 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/context
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/context
         /// </summary>
         public xAPI_Extensions_Context_Tagformance context {
             get {
@@ -30,7 +30,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// 17 extensions of 'tagformance': 4 in activity, 11 in context, 2 in result.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/tagformance/extensions/result
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/tagformance/extensions/result
         /// </summary>
         public xAPI_Extensions_Result_Tagformance result {
             get {

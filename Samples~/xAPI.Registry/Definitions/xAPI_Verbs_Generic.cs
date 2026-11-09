@@ -7,7 +7,7 @@ namespace xAPI.Registry {
     public sealed class xAPI_Verbs_Generic : xAPI_Verbs {
         /// <summary>
         /// Indicates that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/accepted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/accepted
         /// </summary>
         public readonly xAPI_Verb accepted = new xAPI_Verb(
             context: "generic",
@@ -21,7 +21,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Actor accessed/viewed a page, file, video, ...
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/accessed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/accessed
         /// </summary>
         public readonly xAPI_Verb accessed = new xAPI_Verb(
             context: "generic",
@@ -35,7 +35,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor achieved some goal or score.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/achieved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/achieved
         /// </summary>
         public readonly xAPI_Verb achieved = new xAPI_Verb(
             context: "generic",
@@ -49,7 +49,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor answered some question.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/answered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/answered
         /// </summary>
         public readonly xAPI_Verb answered = new xAPI_Verb(
             context: "generic",
@@ -63,7 +63,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor asked a question. Could also asked for help or advice.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/asked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/asked
         /// </summary>
         public readonly xAPI_Verb asked = new xAPI_Verb(
             context: "generic",
@@ -77,7 +77,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor calibrated something. This could be an eye tracking system for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/calibrated
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/calibrated
         /// </summary>
         public readonly xAPI_Verb calibrated = new xAPI_Verb(
             context: "generic",
@@ -91,7 +91,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor changed something. This could be the level or some settings.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/changed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/changed
         /// </summary>
         public readonly xAPI_Verb changed = new xAPI_Verb(
             context: "generic",
@@ -105,7 +105,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has clicked a button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/clicked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/clicked
         /// </summary>
         public readonly xAPI_Verb clicked = new xAPI_Verb(
             context: "generic",
@@ -119,7 +119,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor closed something. Could for example be the settings.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/closed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/closed
         /// </summary>
         public readonly xAPI_Verb closed = new xAPI_Verb(
             context: "generic",
@@ -133,7 +133,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor collapsed something, a menu for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/collapsed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/collapsed
         /// </summary>
         public readonly xAPI_Verb collapsed = new xAPI_Verb(
             context: "generic",
@@ -147,7 +147,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor collected some item.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/collected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/collected
         /// </summary>
         public readonly xAPI_Verb collected = new xAPI_Verb(
             context: "generic",
@@ -161,7 +161,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor brought two or more objects together. This can create a new object out of the combined ones. If just a logical connection is meant, use connected.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/combined
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/combined
         /// </summary>
         public readonly xAPI_Verb combined = new xAPI_Verb(
             context: "generic",
@@ -175,7 +175,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor completed some task, goal or level.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/completed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/completed
         /// </summary>
         public readonly xAPI_Verb completed = new xAPI_Verb(
             context: "generic",
@@ -189,7 +189,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor connected two or more items with each other. This is meant in the sense of drawn a line between the objects, while combined can make something new out of the objects.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/connected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/connected
         /// </summary>
         public readonly xAPI_Verb connected = new xAPI_Verb(
             context: "generic",
@@ -203,7 +203,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Refers for example to a copy-and-paste action performed by an actor. E.g. An actor copied text to paste it into the adress bar of a browser.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/copied
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/copied
         /// </summary>
         public readonly xAPI_Verb copied = new xAPI_Verb(
             context: "generic",
@@ -217,7 +217,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor created something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/created
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/created
         /// </summary>
         public readonly xAPI_Verb created = new xAPI_Verb(
             context: "generic",
@@ -231,7 +231,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor crossed out some text or object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/crossedOut
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/crossedOut
         /// </summary>
         public readonly xAPI_Verb crossedOut = new xAPI_Verb(
             context: "generic",
@@ -245,7 +245,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor deleted something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/deleted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/deleted
         /// </summary>
         public readonly xAPI_Verb deleted = new xAPI_Verb(
             context: "generic",
@@ -259,7 +259,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor deselected a option.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/deselected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/deselected
         /// </summary>
         public readonly xAPI_Verb deselected = new xAPI_Verb(
             context: "generic",
@@ -273,7 +273,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A user used a local device to download data from a different distant disk.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/downloaded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/downloaded
         /// </summary>
         public readonly xAPI_Verb downloaded = new xAPI_Verb(
             context: "generic",
@@ -287,7 +287,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor drew something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/drew
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/drew
         /// </summary>
         public readonly xAPI_Verb drew = new xAPI_Verb(
             context: "generic",
@@ -301,7 +301,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor dropped some draggable into a specific area.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/dropped
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/dropped
         /// </summary>
         public readonly xAPI_Verb dropped = new xAPI_Verb(
             context: "generic",
@@ -315,7 +315,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor edited an object, for example their account profile. 'edited' has a strong connection to text-based input, e.g. a user edited the title. If the user uses preset values, for example realized by a dropdown menu, choose 'changed'. Also in most non-text-based input e.g. changing a color, 'changed' is the matching verb
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/edited
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/edited
         /// </summary>
         public readonly xAPI_Verb edited = new xAPI_Verb(
             context: "generic",
@@ -329,7 +329,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor gave some input.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/entered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/entered
         /// </summary>
         public readonly xAPI_Verb entered = new xAPI_Verb(
             context: "generic",
@@ -343,7 +343,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor failed some task.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/failed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/failed
         /// </summary>
         public readonly xAPI_Verb failed = new xAPI_Verb(
             context: "generic",
@@ -357,7 +357,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor found some item.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/found
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/found
         /// </summary>
         public readonly xAPI_Verb found = new xAPI_Verb(
             context: "generic",
@@ -371,7 +371,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor left behind some object.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/left
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/left
         /// </summary>
         public readonly xAPI_Verb left = new xAPI_Verb(
             context: "generic",
@@ -385,7 +385,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor did some action to lock up something. Could also be locked out of a progression path for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/locked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/locked
         /// </summary>
         public readonly xAPI_Verb locked = new xAPI_Verb(
             context: "generic",
@@ -399,7 +399,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor looked at a specific object. Only use if you can determine that the actor really looked at something, thriough eye-tracking for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/lookedAt
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/lookedAt
         /// </summary>
         public readonly xAPI_Verb lookedAt = new xAPI_Verb(
             context: "generic",
@@ -413,7 +413,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor found some item and collected it.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/looted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/looted
         /// </summary>
         public readonly xAPI_Verb looted = new xAPI_Verb(
             context: "generic",
@@ -427,7 +427,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor lost the game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/lost
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/lost
         /// </summary>
         public readonly xAPI_Verb lost = new xAPI_Verb(
             context: "generic",
@@ -441,7 +441,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor made a decision.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/made
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/made
         /// </summary>
         public readonly xAPI_Verb made = new xAPI_Verb(
             context: "generic",
@@ -455,7 +455,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor moved itself or some object in the game world.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/moved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/moved
         /// </summary>
         public readonly xAPI_Verb moved = new xAPI_Verb(
             context: "generic",
@@ -469,7 +469,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor opened something. Could also be the settings for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/opened
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/opened
         /// </summary>
         public readonly xAPI_Verb opened = new xAPI_Verb(
             context: "generic",
@@ -483,7 +483,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor brought some objects into order.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/ordered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/ordered
         /// </summary>
         public readonly xAPI_Verb ordered = new xAPI_Verb(
             context: "generic",
@@ -497,7 +497,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Refers to the copy-and-paste action performed by an actor. E.g. An actor pasted a text into a textbox
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/pasted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/pasted
         /// </summary>
         public readonly xAPI_Verb pasted = new xAPI_Verb(
             context: "generic",
@@ -511,7 +511,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor played a game or something specific in a game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/played
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/played
         /// </summary>
         public readonly xAPI_Verb played = new xAPI_Verb(
             context: "generic",
@@ -525,7 +525,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has pressed a button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/pressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/pressed
         /// </summary>
         public readonly xAPI_Verb pressed = new xAPI_Verb(
             context: "generic",
@@ -539,7 +539,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor or gorup pressed a specific button. Only use if the press of specific buttons should be tracked. Use the specific button as activity then. Otherwise use press as verb and button as activity.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/pressedButton
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/pressedButton
         /// </summary>
         public readonly xAPI_Verb pressedButton = new xAPI_Verb(
             context: "generic",
@@ -553,7 +553,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor progressed in some game related way(achieved something or completed something).
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/progressed
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/progressed
         /// </summary>
         public readonly xAPI_Verb progressed = new xAPI_Verb(
             context: "generic",
@@ -567,7 +567,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor read some text. Only use if it can be assured that the text is read.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/read
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/read
         /// </summary>
         public readonly xAPI_Verb read = new xAPI_Verb(
             context: "generic",
@@ -581,7 +581,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor received for example an item or help.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/received
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/received
         /// </summary>
         public readonly xAPI_Verb received = new xAPI_Verb(
             context: "generic",
@@ -595,7 +595,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has released a button.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/released
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/released
         /// </summary>
         public readonly xAPI_Verb released = new xAPI_Verb(
             context: "generic",
@@ -609,7 +609,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor saved the progress.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/saved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/saved
         /// </summary>
         public readonly xAPI_Verb saved = new xAPI_Verb(
             context: "generic",
@@ -623,7 +623,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor has scrolled on a trackpad or mouse wheel.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/scrolled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/scrolled
         /// </summary>
         public readonly xAPI_Verb scrolled = new xAPI_Verb(
             context: "generic",
@@ -637,7 +637,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor searched for an item or searched a location.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/searched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/searched
         /// </summary>
         public readonly xAPI_Verb searched = new xAPI_Verb(
             context: "generic",
@@ -651,7 +651,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor selected some option. This could be an answer or a level for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/selected
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/selected
         /// </summary>
         public readonly xAPI_Verb selected = new xAPI_Verb(
             context: "generic",
@@ -665,7 +665,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor shared an object with another actor or a group of actors.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/shared
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/shared
         /// </summary>
         public readonly xAPI_Verb shared = new xAPI_Verb(
             context: "generic",
@@ -679,7 +679,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor solved some task.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/solved
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/solved
         /// </summary>
         public readonly xAPI_Verb solved = new xAPI_Verb(
             context: "generic",
@@ -693,7 +693,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor sorted some objects.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/sorted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/sorted
         /// </summary>
         public readonly xAPI_Verb sorted = new xAPI_Verb(
             context: "generic",
@@ -707,7 +707,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor synchronized data with an LMS for example, which means, that two objects/processes/devices synchronized between A and B or with something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/synchronized
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/synchronized
         /// </summary>
         public readonly xAPI_Verb synchronized = new xAPI_Verb(
             context: "generic",
@@ -721,7 +721,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor toggled some switch.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/toggled
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/toggled
         /// </summary>
         public readonly xAPI_Verb toggled = new xAPI_Verb(
             context: "generic",
@@ -735,7 +735,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor triggered a event.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/triggered
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/triggered
         /// </summary>
         public readonly xAPI_Verb triggered = new xAPI_Verb(
             context: "generic",
@@ -749,7 +749,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor unfolded something, a menu for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/unfolded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/unfolded
         /// </summary>
         public readonly xAPI_Verb unfolded = new xAPI_Verb(
             context: "generic",
@@ -763,7 +763,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor unlocked some option or item.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/unlocked
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/unlocked
         /// </summary>
         public readonly xAPI_Verb unlocked = new xAPI_Verb(
             context: "generic",
@@ -777,7 +777,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A user or group used some local device to uploaded data onto a different distant disk.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/uploaded
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/uploaded
         /// </summary>
         public readonly xAPI_Verb uploaded = new xAPI_Verb(
             context: "generic",
@@ -791,7 +791,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor used some item.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/used
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/used
         /// </summary>
         public readonly xAPI_Verb used = new xAPI_Verb(
             context: "generic",
@@ -805,7 +805,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A group of actors voted on something.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/voted
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/voted
         /// </summary>
         public readonly xAPI_Verb voted = new xAPI_Verb(
             context: "generic",
@@ -819,7 +819,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor watched a video. Only use if you can assure the actors really watched the video, use eye-tracking for example.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/watched
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/watched
         /// </summary>
         public readonly xAPI_Verb watched = new xAPI_Verb(
             context: "generic",
@@ -833,7 +833,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// An actor won a game.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/won
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/won
         /// </summary>
         public readonly xAPI_Verb won = new xAPI_Verb(
             context: "generic",
@@ -847,7 +847,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// A actor put some text into a text field.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/generic/verbs/wrote
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/generic/verbs/wrote
         /// </summary>
         public readonly xAPI_Verb wrote = new xAPI_Verb(
             context: "generic",

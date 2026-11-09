@@ -12,7 +12,7 @@ namespace xAPI.Registry {
 
         /// <summary>
         /// Heart rate as conditional information of a context. The value is an integer.
-        /// URI: https://xapi.elearn.rwth-aachen.de/definitions/ppm/extensions/context/heartRate
+        /// URI: https://omilaxr-ecosystem.github.io/xapi/definitions/ppm/extensions/context/heartRate
         /// </summary>
         public xAPI_Extensions_Context_Ppm heartRate(object value) {
             Add(new xAPI_Extension(
