@@ -5,8 +5,10 @@
 ### Added
 - `xApiWizardSection` adds an xAPI section to the OmiLAXR Wizard: checks for the xAPI data provider, `Assets/xAPI.Registry` and `XAPI_REGISTRY_EXISTS`, plus actions to add the prefab and copy the samples.
 - `xApiPpmWizardSection` adds the PPM hook to the tracking step of the OmiLAXR Wizard: it checks for a `PpmHook` and adds one to the xAPI data provider.
+- `xApiRegistry.DefaultUri`, `xApiRegistry.FormerUris` and `xApiRegistry.ToCurrentUri()` for the current and former bases of the xAPI Registry IRIs.
 
 ### Changed
+- **Breaking:** `xApiRegistry.uri` defaults to `https://omilaxr-ecosystem.github.io/xapi/definitions`, the new base of the xAPI Registry (was `https://xapi.elearn.rwth-aachen.de/definitions`), also in the `OmiLAXR.xAPI` prefab. Statements now carry the new IRIs. Scenes and prefabs saved with the former default switch once when loaded and log it; a former base entered afterwards is kept. To map older LRS data, use the `exactMatch` of each registry definition, which lists its former IRI.
 - Raised the core dependency `com.rwth.unity.omilaxr` to 2.3.0, which provides the OmiLAXR Wizard and `IWizardSection`.
 - `xApiStatement`, `xAPIv1` and the gaze composers take the time from the core `Clock`.
 - `ScenarioContextHook` reads language, platform, FPS and registration through the core `ScenarioContext` instead of scene singletons.

@@ -436,8 +436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 351ac86910f1462fba37cf70b220d293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uri: https://xapi.elearn.rwth-aachen.de/definitions/
+  uri: https://omilaxr-ecosystem.github.io/xapi/definitions
   version: 1.0.3
+  uriMigrated: 1
 --- !u!114 &6295353509164238201
 MonoBehaviour:
   m_ObjectHideFlags: 0
