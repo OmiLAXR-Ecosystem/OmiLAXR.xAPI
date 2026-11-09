@@ -5,6 +5,7 @@
 ### Changed
 - `xApiStatement`, `xAPIv1` and the gaze composers take the time from the core `Clock`.
 - `ScenarioContextHook` reads language, platform, FPS and registration through the core `ScenarioContext` instead of scene singletons.
+- Raised the core dependency `com.rwth.unity.omilaxr` to 2.2.5, which provides `Clock` and `ScenarioContext`.
 - Updated package version metadata.
 
 ### Fixed
